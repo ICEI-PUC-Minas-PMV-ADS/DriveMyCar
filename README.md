@@ -1,10 +1,14 @@
-# TÍTULO DO PROJETO
+# TÍTULO DO PROJETO 
+Drive my car
 
 `CURSO`
+Analise e Desenvolvimento de Sistemas
 
 `DISCIPLINA`
 
+
 `SEMESTRE`
+1 semestre
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
