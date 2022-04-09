@@ -42,12 +42,12 @@ Instagram | Facebook | Internet Banking | Uber | 99 Pop | Waze.
 Rodrigo Monteiro tem 47 anos, é advogado e autônomo. Utiliza as redes sociais Instagram, Facebook, tem habito de utilizar aplicativos para acesso a aplicações como Internet Banking, de Navegação por GPS e outros variados. Gosta de jogar futebol e de participar de encontros para churrascos e bater papo com amigos. É proprietário de frota própria de veículos e aluga especificamente para motoristas de aplicativos de mobilidades. Se frustra com as burocracias nos processos realizados no Brasil, com a desvalorização do trabalho e também com o alto custo Brasil.
 
 
-|<img src="img/Rodrigo.jpg" width="40%" height="40%">   | **Rodrigo Monteiro** <br> 47 anos   |
+|<img src="img/Rodrigo.jpg" width="35%" height="35%">   | **Rodrigo Monteiro** <br> 47 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** |<br> Advogado 
 |**Motivação** |<br>Quer ter uma vida mais saudável e usar menos seu carro
 |**Dispositivos** |Possui um samsung de última geração |
-|**Aplicativos** |Facebook<br>App do G1|
+|**Aplicativos** |Instagram | Facebook | Internet Banking | Uber | 99 Pop | Waze.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
