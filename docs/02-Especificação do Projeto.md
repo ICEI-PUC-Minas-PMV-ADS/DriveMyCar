@@ -2,13 +2,52 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+      A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidados a partir de pesquisas de mercado e entrevistas feitas com motoristas profissionais atuantes no transporte por aplicativo. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+
+<span style="color:green"> **Rodrigo Monteiro** 
+
+
+    	Idade: 47
+
+        Ocupação: Advogado
+
+* Principais aplicativos utilizados:
+
+      Instagram | Facebook | Internet Banking | Uber | 99 Pop | Waze.
+
+* Motivações:
+
+      •	Família
+      •	Rentabilidade
+      •	Liberdade	
+
+* Frustrações:
+
+      •	Burocracias
+      •	Desvalorização do trabalho
+      •	Custo Brasil	
+      
+* Hobbies/Histórias:
+
+      •	Jogar Futebol
+      •	Churrascos
+      •	Proprietário de frota
+
+2ª Opção
+
+      Rodrigo Monteiro tem 47 anos, é advogado e autônomo. Utiliza as redes sociais Instagram, Facebook, tem habito de utilizar aplicativos para acesso a aplicações como Internet Banking, de Navegação por GPS e outros variados. Gosta de jogar futebol e de participar de encontros para churrascos e bater papo com amigos. É proprietário de frota própria de veículos e aluga especificamente para motoristas de aplicativos de mobilidades. Se frustra com as burocracias nos processos realizados no Brasil, com a desvalorização do trabalho e também com o alto custo Brasil.
+
+
+|<img src="img/Rodrigo.jpg" width="100" height="100">   | **Rodrigo Monteiro** <br> 47 anos   |
+|:---------------------------------------:|:-------------------------------:|
+|**Ocupação** |<br> Advogado 
+|**Motivação** |<br>Quer ter uma vida mais saudável e usar menos seu carro
+|**Dispositivos** |Possui um samsung de última geração |
+|**Aplicativos** |Facebook<br>App do G1|
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 

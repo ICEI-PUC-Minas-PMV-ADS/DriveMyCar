@@ -1,29 +1,30 @@
 # TÍTULO DO PROJETO 
-Drive my car
+Drive My Car
 
 `CURSO`
 Analise e Desenvolvimento de Sistemas
 
 `DISCIPLINA`
-
+Projeto: Desenvolvimento de Aplicação Web Front-End
 
 `SEMESTRE`
-1 semestre
+1º Semestre
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Criação de uma pagina WEB com a premissa de permitir a oferta de carros para locação entre motoristas proprietarios de veiculos e motoristas que buscam veiculos para locar e trabalhar diretametne com aplicativos de mobilidade.
 
 ## Integrantes
 
-*  Daniel De Souza  Marcolino
-*  João Victor Garcia Leite santana
-*  Maykon edésio Rosa
-* Nome completo do aluno 2João Vitor Garcia Leite Santana
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+*  Daniel De Souza Marcolino
+*  João Victor Garcia Leite Santana
+*  Maykon Edésio Rosa
+*  Pryscila Martins Cazuza
+*  Roger Bastos Mendes
+*  Valéria De Sena Billafon
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina de Paiva Carvalho
 
 ## Instruções de utilização
 
