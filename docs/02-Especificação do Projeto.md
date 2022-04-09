@@ -46,7 +46,7 @@ Rodrigo Monteiro tem 47 anos, é advogado e autônomo. Utiliza as redes sociais 
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** |<br> Advogado 
 |**Principais Aplicativos Utilizados** |<br>Instagram, Facebook, Internet Banking, Uber, 99 Pop e Waze
-|**Motivação** |<br>Quer ter uma vida mais saudável e usar menos seu carro
+|**Motivação** |<br>Familia, Rentabilidade, Liberdade.
 |**Dispositivos** |Possui um samsung de última geração |
 |**Aplicativos** |Facebook<br>App do G1|
 
