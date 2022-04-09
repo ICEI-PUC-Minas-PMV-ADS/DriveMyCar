@@ -45,9 +45,10 @@ Rodrigo Monteiro tem 47 anos, é advogado e autônomo. Utiliza as redes sociais 
 |<img src="img/Rodrigo.jpg" width="35%" height="35%">   | **Rodrigo Monteiro** <br> 47 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** |<br> Advogado 
+|**Principais Aplicativos Utilizados** |<br>Instagram, Facebook, Internet Banking, Uber, 99 Pop e Waze
 |**Motivação** |<br>Quer ter uma vida mais saudável e usar menos seu carro
 |**Dispositivos** |Possui um samsung de última geração |
-|**Aplicativos** |Instagram | Facebook | Internet Banking | Uber | 99 Pop | Waze.
+|**Aplicativos** |Facebook<br>App do G1|
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
