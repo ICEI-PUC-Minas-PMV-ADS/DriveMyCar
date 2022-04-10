@@ -14,12 +14,21 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |<img src="img/Rodrigo.jpg" width="35%" height="35%">   | **Rodrigo Monteiro** <br> 47 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Advogado 
-|**Principais Aplicativos Utilizados** |<br>Instagram, Facebook, Internet Banking, Uber, 99 Pop e Waze<br>
-|**Motivação** |<br>Familia, Rentabilidade, Liberdade<br>
-|**Frustrações** |<br>Burocracias, Desvalorização do trabalho, Custo Brasil<br>|
-|**Hobbies/Histórias** |<br>Jogar Futebol, Churrascos, Proprietário de Frota<br>|
+|**Principais Aplicativos Utilizados** |Instagram, Facebook, Internet Banking, Uber, 99 Pop e Waze
+|**Motivação** |Familia, Rentabilidade, Liberdade
+|**Frustrações** |Burocracias, Desvalorização do trabalho, Custo Brasil|
+|**Hobbies/Histórias** |Jogar Futebol, Churrascos, Proprietário de Frota|
+
+<span style="color:Green">**Sônia Maria**
 
 
+|<img src="img/Sonia.jpg" width="35%" height="35%">   | **Sônia Maria** <br> 56 anos   |
+|:---------------------------------------:|:-------------------------------:|
+|**Ocupação** | Contadora 
+|**Principais Aplicativos Utilizados** |Instagram, IQ Option, Whatsapp, Canvas, Waze e Hotel Hurbano
+|**Motivação** |Familia, Saúde
+|**Frustrações** |Desrespeito, Falta de Profissionalismo|
+|**Hobbies/Histórias** |Viajar, Yoga, Cuidar dos Netos|
 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
