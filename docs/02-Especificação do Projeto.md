@@ -48,7 +48,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 <span style="color:Green">**João Hélvecio**
 
 
-|<img src="img/Felipe.jpg" width="160" height="100">   | **João Hélvecio** <br> 24 anos   |
+|<img src="img/Joao.jpg" width="160" height="100">   | **João Hélvecio** <br> 24 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Aposentado 
 |**Principais Aplicativos Utilizados** |Whatsapp, Uber, Waze e Radio Itatiaia
