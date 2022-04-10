@@ -48,7 +48,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 <span style="color:Green">**Felipe Almeida**
 
 
-|<img src="img/Felipe.jpg" width="35%" height="35%">   | **Felipe Almeida** <br> 24 anos   |
+|<img src="img/Felipe.jpg" width="160" height="100">   | **Felipe Almeida** <br> 24 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Frentista 
 |**Principais Aplicativos Utilizados** |Instagram, Facebook, Whatsapp, Uber, Waze e Telegram
