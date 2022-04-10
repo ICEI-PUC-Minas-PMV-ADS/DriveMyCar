@@ -18,7 +18,8 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |**Motivação** |Familia, Rentabilidade, Liberdade
 |**Frustrações** |Burocracias, Desvalorização do trabalho, Custo Brasil|
 |**Hobbies/Histórias** |Jogar Futebol, Churrascos, Proprietário de Frota|
-
+ 
+  
 <span style="color:Green">**Sônia Maria**
 
 
@@ -29,17 +30,21 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |**Motivação** |Familia, Saúde
 |**Frustrações** |Desrespeito, Falta de Profissionalismo|
 |**Hobbies/Histórias** |Viajar, Yoga, Cuidar dos Netos|
+ 
+  
 
-<span style="color:Green">**Sônia Maria**
+<span style="color:Green">**Felipe Almeida**
 
 
-|<img src="img/Sonia.jpg" width="35%" height="35%">   | **Sônia Maria** <br> 56 anos   |
+|<img src="img/Felipe.jpg" width="35%" height="35%">   | **Felipe Almeida** <br> 24 anos   |
 |:---------------------------------------:|:-------------------------------:|
-|**Ocupação** | Contadora 
-|**Principais Aplicativos Utilizados** |Instagram, IQ Option, Whatsapp, Canvas, Waze e Hotel Hurbano
-|**Motivação** |Familia, Saúde
-|**Frustrações** |Desrespeito, Falta de Profissionalismo|
-|**Hobbies/Histórias** |Viajar, Yoga, Cuidar dos Netos|
+|**Ocupação** | Frentista 
+|**Principais Aplicativos Utilizados** |Instagram, Facebook, Whatsapp, Uber, Waze e Telegram
+|**Motivação** |Estudar e Dirigir
+|**Frustrações** |Dificuldade de gerir o tempo, Insegurança|
+|**Hobbies/Histórias** |Correr, Bar e encontros, Jogos Online, Viajar|
+
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
