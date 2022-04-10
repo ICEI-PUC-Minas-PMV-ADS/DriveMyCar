@@ -23,7 +23,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 <span style="color:Green">**Sônia Maria**
 
 
-|<img src="img/Sonia.jpg" width="35%" height="35%">   | **Sônia Maria** <br> 56 anos   |
+|<img src="img/Rodrigo.jpg" width="35%" height="35%">   | **Sônia Maria** <br> 56 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Contadora 
 |**Principais Aplicativos Utilizados** |Instagram, IQ Option, Whatsapp, Canvas, Waze e Hotel Hurbano
