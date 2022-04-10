@@ -7,9 +7,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-
-<span style="color:green"> **Rodrigo Monteiro** <size:22> 
-
+<span style="color:green"> **Rodrigo Monteiro** 
 
 
 |<img src="img/Rodrigo.jpg" width="35%" height="35%">   | **Rodrigo Monteiro** <br> 47 anos   |
@@ -19,6 +17,9 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |**Motivação** |<br>Familia, Rentabilidade, Liberdade<br>
 |**Frustrações** |<br>Burocracias, Desvalorização do trabalho, Custo Brasil<br>|
 |**Hobbies/Histórias** |<br>Jogar Futebol, Churrascos, Proprietário de Frota<br>|
+
+
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
