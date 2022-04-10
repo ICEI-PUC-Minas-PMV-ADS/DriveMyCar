@@ -7,9 +7,9 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-<br>
-<span style="color:000025"> **Rodrigo Monteiro** 
-<br>
+
+<span style="color:#252545"> **Rodrigo Monteiro** 
+
 
 |<img src="img/Rodrigo.jpg" width="35%" height="35%">   | **Rodrigo Monteiro** <br> 47 anos   |
 |:---------------------------------------:|:-------------------------------:|
