@@ -11,7 +11,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 <span style="color:Green">**Rodrigo Monteiro**
 
 
-|<img src="img/Rodrigo.jpg" width="35%" height="35%">   | **Rodrigo Monteiro** <br> 47 anos   |
+|<img src="img/Rodrigo.jpg" width="160" height="100">   | **Rodrigo Monteiro** <br> 47 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Advogado 
 |**Principais Aplicativos Utilizados** |Instagram, Facebook, Internet Banking, Uber, 99 Pop e Waze
@@ -59,7 +59,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 <span style="color:Green">**Rodrigo Monteiro**
 
 
-|<img src="img/Rodrigo.jpg" width="160" height="100">   | **Rodrigo Monteiro** <br> 47 anos   |
+|<img src="img/joao.jpg" width="160" height="100">   | **Rodrigo Monteiro** <br> 47 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Advogado 
 |**Principais Aplicativos Utilizados** |Instagram, Facebook, Internet Banking, Uber, 99 Pop e Waze
