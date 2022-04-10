@@ -20,7 +20,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |**Hobbies/Histórias** |Jogar Futebol, Churrascos, Proprietário de Frota|
  
   
-<span style="color:Green">**Sônia Maria**
+### <span style="color:Green">**Sônia Maria**
 
 
 |<img src="img/Sonia.jpg" width="160" height="100">   | **Sônia Maria** <br> 56 anos   |
@@ -33,7 +33,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
  
   
 
-<span style="color:Green">**Felipe Almeida**
+### <span style="color:Green">**Felipe Almeida**
 
 
 |<img src="img/Felipe.jpg" width="160" height="100">   | **Felipe Almeida** <br> 24 anos   |
@@ -45,7 +45,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |**Hobbies/Histórias** |Correr, Bar e encontros, Jogos Online, Viajar|
 
 
-<span style="color:Green">**João Hélvecio**
+### <span style="color:Green">**João Hélvecio**
 
 
 |<img src="img/Joao.jpg" width="150" height="100">   | **João Hélvecio** <br> 63 anos   |
