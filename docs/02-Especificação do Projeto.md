@@ -76,27 +76,30 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Sônia|	Obter segurança no envio e armazenamento dos dados|	Sente insegurança em fornecer alguns tipos de informações pessoais, por medo de fraude.|
 |Felipe|	Ser avisado de novas ofertas de aluguel pelo período desejado|	Gostaria de adiantar-se, quando novas ofertas com seu perfil forem anunciadas no site.|
 |João Hévecio|	Gostaria de ter muitas possibilidades, escolher o modelo de carro que quiser.|	Encontrar a melhor opção, pois possui modelos e marcas de preferência, que o site não seja restrito|
-|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01|	Deve possuir tela de home com possibilidade de busca ;|	ALTA|
+|RF-02|	Disponibilizar de forma simples e dinâmica as ofertas de aluguel de veículos;|	MÉDIA|
+|RF-03|	Deve possuir uma barra de filtragem onde poderá definir-se como a busca deve ser feita, em relação a profundidade de escalonamento entre as opções de veículo, em relação a, custo, período, quilometragem, modelo, priorizando o custo e o período de disponibilidade;	|MÉDIA|
+|RF-04|	O aplicativo tem que ser funcional, hábil e de utilização intuitiva;|	MÉDIA|
+|RF-05|	Solicitar e disponibilizar aos usuários informações relevantes para a elaboração de perfis e anúncio;	|ALTA|
+|RF-06|	Deve possuir cadastro de clientes, para anunciantes e interessados na locação de veículos;|	ALTA|
+|RF-07|	Deve possuir caixa de mensagens com a opção de enviar msg direta ao locador;	|BAIXA|
+|RF-08|	As informações devem estar armazenadas com segurança e não podem ser editadas por terceiros;|	ALTA|
+|RF-09|	Entregar o maior número de possibilidades entre as informações requeridas;	|MÉDIA|
+RF-10	|O site deve possuir um sistema de "match", para que o locatário marque de forma instantânea interesse na opção de locação desejada e para que o locador consiga formalizar o aluguel da forma mais breve possível;	|MÉDIA|
+|RF-11|	Feito a busca das ofertas disponíveis, o usuário pode criar uma alerta para o período desejado, a fim de saber atualizações de novas disponibilidades de veículos;	|ALTA|
+
 
 
 ### Requisitos não Funcionais
