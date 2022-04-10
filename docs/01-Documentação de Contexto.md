@@ -7,7 +7,7 @@
         Assim, recentemente no Brasil, com a grave crise¹ econômica impulsionada pela pandemia do novo Coronavírus, houve ainda mais a inserção de profissionais no setor, de modo que, até quem não dispõe de um veículo próprio, passou a alugar para conseguir atuar no presente “mercado uberizado”.
         No entanto, é válido destacar que há uma grande lacuna quando tratamos de aluguel de veículos para trabalho em períodos personalizados, isto porque, motoristas de aplicativos que escolhem essa modalidade, ficam reféns dos altos preços, taxas e complexidades estipuladas pelas empresas que dominam o setor de locação de veículos. 
         Diante disso, torna-se fundamental que exista uma aplicação que de forma prática e segura, sirva de interface facilitadora entre motoristas de aplicativo que desejam alugar veículos para trabalhar por períodos personalizados e proprietários de veículos particulares que desejam obter uma renda a partir do aluguel do seu veículo.
-
+ 
 
 ## Problema
 
