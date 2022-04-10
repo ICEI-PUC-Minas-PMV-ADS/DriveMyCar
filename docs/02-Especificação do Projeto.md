@@ -30,7 +30,16 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |**Frustrações** |Desrespeito, Falta de Profissionalismo|
 |**Hobbies/Histórias** |Viajar, Yoga, Cuidar dos Netos|
 
+<span style="color:Green">**Sônia Maria**
 
+
+|<img src="img/Sonia.jpg" width="35%" height="35%">   | **Sônia Maria** <br> 56 anos   |
+|:---------------------------------------:|:-------------------------------:|
+|**Ocupação** | Contadora 
+|**Principais Aplicativos Utilizados** |Instagram, IQ Option, Whatsapp, Canvas, Waze e Hotel Hurbano
+|**Motivação** |Familia, Saúde
+|**Frustrações** |Desrespeito, Falta de Profissionalismo|
+|**Hobbies/Histórias** |Viajar, Yoga, Cuidar dos Netos|
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
