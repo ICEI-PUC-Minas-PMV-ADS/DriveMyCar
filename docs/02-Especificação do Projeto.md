@@ -41,7 +41,7 @@ Instagram | Facebook | Internet Banking | Uber | 99 Pop | Waze.
 
 Rodrigo Monteiro tem 47 anos, é advogado e autônomo. Utiliza as redes sociais Instagram, Facebook, tem habito de utilizar aplicativos para acesso a aplicações como Internet Banking, de Navegação por GPS e outros variados. Gosta de jogar futebol e de participar de encontros para churrascos e bater papo com amigos. É proprietário de frota própria de veículos e aluga especificamente para motoristas de aplicativos de mobilidades. Se frustra com as burocracias nos processos realizados no Brasil, com a desvalorização do trabalho e também com o alto custo Brasil.
 
-|<img src="img/Rodrigo.jpg" width="35%" height="35%">   | <span style="color:green"> **Rodrigo Monteiro**  <br> 47 anos   |
+| <span style="color:green"> **Rodrigo Monteiro**  <br> 47 anos   | <img src="img/Rodrigo.jpg" width="35%" height="35%">   |
 |<img src="img/Rodrigo.jpg" width="35%" height="35%">   | **Rodrigo Monteiro** <br> 47 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Advogado 
