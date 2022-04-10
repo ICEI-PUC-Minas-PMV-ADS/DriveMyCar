@@ -45,6 +45,29 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 |**Hobbies/Histórias** |Correr, Bar e encontros, Jogos Online, Viajar|
 
 
+<span style="color:Green">**Felipe Almeida**
+
+
+|<img src="img/Felipe.jpg" width="35%" height="35%">   | **Felipe Almeida** <br> 24 anos   |
+|:---------------------------------------:|:-------------------------------:|
+|**Ocupação** | Frentista 
+|**Principais Aplicativos Utilizados** |Instagram, Facebook, Whatsapp, Uber, Waze e Telegram
+|**Motivação** |Estudar e Dirigir
+|**Frustrações** |Dificuldade de gerir o tempo, Insegurança|
+|**Hobbies/Histórias** |Correr, Bar e encontros, Jogos Online, Viajar|
+
+<span style="color:Green">**Rodrigo Monteiro**
+
+
+|<img src="img/Rodrigo.jpg" width="35%" height="35%">   | **Rodrigo Monteiro** <br> 47 anos   |
+|:---------------------------------------:|:-------------------------------:|
+|**Ocupação** | Advogado 
+|**Principais Aplicativos Utilizados** |Instagram, Facebook, Internet Banking, Uber, 99 Pop e Waze
+|**Motivação** |Familia, Rentabilidade, Liberdade
+|**Frustrações** |Burocracias, Desvalorização do trabalho, Custo Brasil|
+|**Hobbies/Histórias** |Jogar Futebol, Churrascos, Proprietário de Frota|
+
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
