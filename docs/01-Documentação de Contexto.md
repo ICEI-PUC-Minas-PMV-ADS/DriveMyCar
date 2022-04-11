@@ -11,16 +11,13 @@ Diante disso, torna-se fundamental que exista uma aplicação que de forma prát
 
 ## Problema
 
-        O problema a ser resolvido através desse projeto é a precariedade de opções e alternativas para motoristas de aplicativos que desejam alugar um veículo para trabalhar e a dificuldade que um particular possui para a locação de seu veículo próprio. 
+O problema a ser resolvido através desse projeto é a precariedade de opções e alternativas para motoristas de aplicativos que desejam alugar um veículo para trabalhar e a dificuldade que um particular possui para a locação de seu veículo próprio. 
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+
 
 ## Objetivos
 
-        O objetivo geral deste trabalho é o desenvolvimento de um website intitulado DRIVE MY CAR, que de forma prática, amigável e segura, sirva de interface facilitadora entre locatários e locadores, respectivamente: motoristas de aplicativo, com o desejo de alugar um veículo para poder trabalhar e proprietários de veículos, que tenham o desejo de alugar seu veículo para obter uma renda extra.
+O objetivo geral deste trabalho é o desenvolvimento de um website intitulado DRIVE MY CAR, que de forma prática, amigável e segura, sirva de interface facilitadora entre locatários e locadores, respectivamente: motoristas de aplicativo, com o desejo de alugar um veículo para poder trabalhar e proprietários de veículos, que tenham o desejo de alugar seu veículo para obter uma renda extra.
 
             •	Como objetivos específicos, destacamos baseado no tipo de usuário:
             •	Disponibilizar uma forma de cadastro dos dados do veículo;
@@ -32,24 +29,16 @@ Diante disso, torna-se fundamental que exista uma aplicação que de forma prát
             •	Implementar ferramenta para que o locatário insira os dados básicos necessários à locação para que o locador tenha acesso;
 
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
 
 ## Justificativa
 
-        Em pesquisa² publicada e atualizada em outubro de 2021, pela maior empresa do setor, a UBER, foi relatado que a receita da região da América Latina, em que o país está inserido, cresceu 44% em relação ao mesmo período do ano anterior e mesmo em 2022, com o aumento significativo do combustível e a crise gerada por diversos outros fatores, este número não tem diminuído.  
-        Visando este cenário, a aplicação fará o intermédio entre o particular que tem um veículo à disposição para aluguel e o motorista trabalhador que necessita de um aluguel mais facilitado e sem grandes burocracias, como o que vem sendo praticado pelas grandes locadoras de veículos do país.
+Em pesquisa² publicada e atualizada em outubro de 2021, pela maior empresa do setor, a UBER, foi relatado que a receita da região da América Latina, em que o país está inserido, cresceu 44% em relação ao mesmo período do ano anterior e mesmo em 2022, com o aumento significativo do combustível e a crise gerada por diversos outros fatores, este número não tem diminuído.  
+Visando este cenário, a aplicação fará o intermédio entre o particular que tem um veículo à disposição para aluguel e o motorista trabalhador que necessita de um aluguel mais facilitado e sem grandes burocracias, como o que vem sendo praticado pelas grandes locadoras de veículos do país.
 
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-        O público-alvo foi definido a partir do recorte onde será dada ênfase em atender as demandas dos motoristas em busca de veículos para trabalhar nos apps de mobilidade que chamaremos de “Motoristas Locatários” e também nos motoristas que possuem veículos adicionais para locação ou até mesmo que queiram disponibilizar seus veículos em períodos parciais, que identificamos como “Motoristas Locadores”.
+ O público-alvo foi definido a partir do recorte onde será dada ênfase em atender as demandas dos motoristas em busca de veículos para trabalhar nos apps de mobilidade que chamaremos de “Motoristas Locatários” e também nos motoristas que possuem veículos adicionais para locação ou até mesmo que queiram disponibilizar seus veículos em períodos parciais, que identificamos como “Motoristas Locadores”.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
