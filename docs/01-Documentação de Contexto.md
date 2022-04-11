@@ -1,12 +1,12 @@
 # Introdução
 
-        Atualmente, com o advento da tecnologia, e com o cenário de instabilidade política e econômica no Brasil, percebe-se cada vez mais o crescimento de aplicações que servem de interface entre prestadores de um determinado serviço e consumidores.
-        Notória é a mudança, principalmente nos setores de delivery e transportes, que impactam diretamente na economia global, de tal maneira que, foram criadas novas formas de trabalho, disponibilizando serviços de qualidade com preços mais acessíveis aos consumidores.
-        Desta forma, o novo mercado ganhou novos profissionais, que rapidamente se adequaram ao quadro, visando a recolocação no mercado de trabalho para obter uma fonte de renda principal ou até mesmo uma renda extra, para complementar seu salário. 
-        Profissionais liberais enxergaram na necessidade uma nova oportunidade, onde é necessário apenas um veículo para trabalhar.
-        Assim, recentemente no Brasil, com a grave crise¹ econômica impulsionada pela pandemia do novo Coronavírus, houve ainda mais a inserção de profissionais no setor, de modo que, até quem não dispõe de um veículo próprio, passou a alugar para conseguir atuar no presente “mercado uberizado”.
-        No entanto, é válido destacar que há uma grande lacuna quando tratamos de aluguel de veículos para trabalho em períodos personalizados, isto porque, motoristas de aplicativos que escolhem essa modalidade, ficam reféns dos altos preços, taxas e complexidades estipuladas pelas empresas que dominam o setor de locação de veículos. 
-        Diante disso, torna-se fundamental que exista uma aplicação que de forma prática e segura, sirva de interface facilitadora entre motoristas de aplicativo que desejam alugar veículos para trabalhar por períodos personalizados e proprietários de veículos particulares que desejam obter uma renda a partir do aluguel do seu veículo.
+ Atualmente, com o advento da tecnologia, e com o cenário de instabilidade política e econômica no Brasil, percebe-se cada vez mais o crescimento de aplicações que servem de interface entre prestadores de um determinado serviço e consumidores.
+ Notória é a mudança, principalmente nos setores de delivery e transportes, que impactam diretamente na economia global, de tal maneira que, foram criadas novas formas de trabalho, disponibilizando serviços de qualidade com preços mais acessíveis aos consumidores.
+ Desta forma, o novo mercado ganhou novos profissionais, que rapidamente se adequaram ao quadro, visando a recolocação no mercado de trabalho para obter uma fonte de renda principal ou até mesmo uma renda extra, para complementar seu salário. 
+ Profissionais liberais enxergaram na necessidade uma nova oportunidade, onde é necessário apenas um veículo para trabalhar.
+ Assim, recentemente no Brasil, com a grave crise¹ econômica impulsionada pela pandemia do novo Coronavírus, houve ainda mais a inserção de profissionais no setor, de modo que, até quem não dispõe de um veículo próprio, passou a alugar para conseguir atuar no presente “mercado uberizado”.
+ No entanto, é válido destacar que há uma grande lacuna quando tratamos de aluguel de veículos para trabalho em períodos personalizados, isto porque, motoristas de aplicativos que escolhem essa modalidade, ficam reféns dos altos preços, taxas e complexidades estipuladas pelas empresas que dominam o setor de locação de veículos. 
+Diante disso, torna-se fundamental que exista uma aplicação que de forma prática e segura, sirva de interface facilitadora entre motoristas de aplicativo que desejam alugar veículos para trabalhar por períodos personalizados e proprietários de veículos particulares que desejam obter uma renda a partir do aluguel do seu veículo.
  
 
 ## Problema
