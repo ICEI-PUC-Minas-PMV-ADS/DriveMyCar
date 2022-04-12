@@ -19,14 +19,14 @@ O problema a ser resolvido através desse projeto é a precariedade de opções 
 
 O objetivo geral deste trabalho é o desenvolvimento de um website intitulado DRIVE MY CAR, que de forma prática, amigável e segura, sirva de interface facilitadora entre locatários e locadores, respectivamente: motoristas de aplicativo, com o desejo de alugar um veículo para poder trabalhar e proprietários de veículos, que tenham o desejo de alugar seu veículo para obter uma renda extra.
 
-     •	Como objetivos específicos, destacamos baseado no tipo de usuário:
-     •	Disponibilizar uma forma de cadastro dos dados do veículo;
-     •	Viabilizar inserção de dados da oferta de locação do veículo;
-<br>•Possibilitar a conexão entre o locador e locatário;
-<br>•Fornecer dados básicos dos locatários interessados;
- <br>•Disponibilizar a busca pelos veículos cadastrados;
- <br>•Permitir o filtro de acordo com as condições de ofertas de locações dos veículos;
- <br>•Implementar ferramenta para que o locatário insira os dados básicos necessários à locação para que o locador tenha acesso;
+<br>• Como objetivos específicos, destacamos baseado no tipo de usuário:
+<br>• Disponibilizar uma forma de cadastro dos dados do veículo;
+<br>• Viabilizar inserção de dados da oferta de locação do veículo;
+<br>• Possibilitar a conexão entre o locador e locatário;
+<br>• Fornecer dados básicos dos locatários interessados;
+<br>• Disponibilizar a busca pelos veículos cadastrados;
+<br>• Permitir o filtro de acordo com as condições de ofertas de locações dos veículos;
+<br>• Implementar ferramenta para que o locatário insira os dados básicos necessários à locação para que o locador tenha acesso;
 
  
 
