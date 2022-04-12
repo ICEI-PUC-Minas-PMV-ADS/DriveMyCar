@@ -22,11 +22,11 @@ O objetivo geral deste trabalho é o desenvolvimento de um website intitulado DR
      •	Como objetivos específicos, destacamos baseado no tipo de usuário:
      •	Disponibilizar uma forma de cadastro dos dados do veículo;
      •	Viabilizar inserção de dados da oferta de locação do veículo;
-•	Possibilitar a conexão entre o locador e locatário;
-•	Fornecer dados básicos dos locatários interessados;
-•	Disponibilizar a busca pelos veículos cadastrados;
-•	Permitir o filtro de acordo com as condições de ofertas de locações dos veículos;
-•	Implementar ferramenta para que o locatário insira os dados básicos necessários à locação para que o locador tenha acesso;
+ •Possibilitar a conexão entre o locador e locatário;
+ •Fornecer dados básicos dos locatários interessados;
+ •Disponibilizar a busca pelos veículos cadastrados;
+ •Permitir o filtro de acordo com as condições de ofertas de locações dos veículos;
+ •Implementar ferramenta para que o locatário insira os dados básicos necessários à locação para que o locador tenha acesso;
 
  
 
