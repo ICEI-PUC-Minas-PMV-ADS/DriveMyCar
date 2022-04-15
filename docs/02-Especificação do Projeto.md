@@ -88,17 +88,14 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01|	Deve possuir tela de home com possibilidade de busca ;|	ALTA|
-|RF-02|	Disponibilizar de forma simples e dinâmica as ofertas de aluguel de veículos;|	MÉDIA|
-|RF-03|	Deve possuir uma barra de filtragem onde poderá definir-se como a busca deve ser feita, em relação a profundidade de escalonamento entre as opções de veículo, em relação a, custo, período, quilometragem, modelo, priorizando o custo e o período de disponibilidade;	|MÉDIA|
-|RF-04|	O aplicativo tem que ser funcional, hábil e de utilização intuitiva;|	MÉDIA|
-|RF-05|	Solicitar e disponibilizar aos usuários informações relevantes para a elaboração de perfis e anúncio;	|ALTA|
-|RF-06|	Deve possuir cadastro de clientes, para anunciantes e interessados na locação de veículos;|	ALTA|
-|RF-07|	Deve possuir caixa de mensagens com a opção de enviar msg direta ao locador;	|BAIXA|
-|RF-08|	As informações devem estar armazenadas com segurança e não podem ser editadas por terceiros;|	ALTA|
-|RF-09|	Entregar o maior número de possibilidades entre as informações requeridas;	|MÉDIA|
-RF-10	|O site deve possuir um sistema de "match", para que o locatário marque de forma instantânea interesse na opção de locação desejada e para que o locador consiga formalizar o aluguel da forma mais breve possível;	|MÉDIA|
-|RF-11|	Feito a busca das ofertas disponíveis, o usuário pode criar uma alerta para o período desejado, a fim de saber atualizações de novas disponibilidades de veículos;	|ALTA|
+|RF-01|	Deve possuir tela de home com possibilidade de busca dos veiculos disponiveis;|	ALTA|
+|RF-02|	Disponibilizar as ofertas de aluguel de veículos;|	MÉDIA|
+|RF-03|	Solicitar e disponibilizar aos usuários informações basicas e a partir disso realizar a elaboração de perfis e anúncio;	|ALTA|
+|RF-04|	Deve possuir cadastro de clientes, para anunciantes e interessados na locação de veículos;|	ALTA|
+|RF-05|	Deve possuir caixa de mensagens com a opção de enviar msg direta ao locador;	|BAIXA|
+|RF-06|	Entregar o maior número de anuncios/ofertas de acordo com as informações requeridas;	|MÉDIA|
+|RF-07| O site deve possuir um sistema de "match", para que o locatário marque de forma instantânea interesse na opção de locação desejada e para que o locador consiga formalizar o aluguel da forma mais breve possível;	|BAIXA|
+|RF-08|	Feito a busca das ofertas disponíveis, o usuário pode criar uma alerta para o período desejado, a fim de saber atualizações de novas disponibilidades de veículos;	|BAIXA|
 
 
 
