@@ -1,8 +1,7 @@
 
 # Metodologia
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
-
+A  metodologia  contempla a definição  das  ferramentaa  utilizadas  pela  equipe  tanto  para  a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
 
 ## Relação de Ambientes de Trabalho
@@ -16,11 +15,6 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Projeto de Interface e  Wireframes |    |    |
 | Gerenciamento do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/projects/1 |
 
-
-
-## Gerenciamento de Projeto
-
-Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como, Develop e Feature.
 
 ## Controle de Versão
 
