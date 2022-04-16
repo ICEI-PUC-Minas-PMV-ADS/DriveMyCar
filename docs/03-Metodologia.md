@@ -58,7 +58,7 @@ Sendo assim, o time está organizado da seguinte maneira:
 - Product Owner: 
 
 - Equipe de Desenvolvimento:
-1.
+1. Daniel Marcolino
 2.
 3.
 4.
