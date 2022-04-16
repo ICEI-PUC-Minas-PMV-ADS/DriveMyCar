@@ -24,18 +24,19 @@ Para o controle de versão e gestão do código fonte do projeto, adotamos um mo
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `Master`: branch principal de produção
-- `Release`: branch para testes de integração e regressão
-- `Develop`: branch estável, agrupadora de Features já testadas e garantidas
-- `Feature`: branch de desenvolvimento da Feature / Melhoria 
+- `master`: branch principal de produção
+- `release`: branch para testes de integração e regressão
+- `develop`: branch estável, agrupadora de Features já testadas e garantidas
+- `feature`: branch de desenvolvimento da Feature / Melhoria 
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+nomenclaturas:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+- `feature`: novas implementações
+- `melhoria`: melhorias e débitos técnicos
+- `bugfix`: correção de bugs encontrados no processo de desenvolvimento em develop ou no processo de testes em release
+- `hotfix`: processo exclusivo para correção de bugs encontrados em produção
+
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
