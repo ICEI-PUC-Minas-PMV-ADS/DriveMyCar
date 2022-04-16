@@ -14,17 +14,20 @@ A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+     - **Veículos** - seção de anúncios de veículos disponíveis para aluguel.
+     - **Solicitações** - registro de todas as solicitações de aluguel já efetuadas pelo usuário.
+     - **Dados do usuário** - seção que contém os dados do usuário, disponíveis para visualização e edição.
+     - **Favoritos** - lista de veículos salvos como favoritos para acessar posteriormente.
 
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
+- **Drive My Car API** - plataforma que permite o acesso a todos os dados exibidos no site.
+
+- **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 
+## Diagrama de Classes
+O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas.
 
-## Diagrama de ...
+
 
 
 
