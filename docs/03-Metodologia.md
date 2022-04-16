@@ -20,7 +20,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 Para o controle de versão e gestão do código fonte do projeto, adotamos um modelo baseado no Gitflow abordado por Vicent Driessen.
 
-![Gitflow](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/gest%C3%A3o%20de%20Codigo%20Fonte.png)
+![Gitflow](https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/main/docs/img/gitflow.jpg)
 
 O projeto segue a seguinte convenção para o nome de branches:
 
