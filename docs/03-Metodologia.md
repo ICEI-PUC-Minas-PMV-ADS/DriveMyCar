@@ -24,10 +24,10 @@ Para o controle de versão e gestão do código fonte do projeto, adotamos um mo
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `Master`: branch principal de produção
+- `Release`: branch para testes de integração e regressão
+- `Develop`: branch estável, agrupadora de Features já testadas e garantidas
+- `Feature`: branch de desenvolvimento da Feature / Melhoria 
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
