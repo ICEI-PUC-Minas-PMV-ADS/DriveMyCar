@@ -10,8 +10,6 @@ Os componentes que fazem parte da solução são apresentados na Figura que se s
 
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrama_componentes.png">
 
-<center>Figura XX - Arquitetura da Solução</center>
-
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
@@ -21,6 +19,9 @@ A solução implementada conta com os seguintes módulos:
      - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
  - **News API** - plataforma que permite o acesso às notícias exibidas no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+
+
+
 
 > **Links Úteis**:
 >
