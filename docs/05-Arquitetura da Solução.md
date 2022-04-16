@@ -6,12 +6,9 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
+Os componentes que fazem parte da solução são apresentados na Figura que se segue.
 
-Exemplo: 
-
-Os componentes que fazem parte da solução são apresentados na Figura XX.
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrama_componentes.png"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrama_componentes.png">
 
 <center>Figura XX - Arquitetura da Solução</center>
 
