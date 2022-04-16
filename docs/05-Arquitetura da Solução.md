@@ -11,7 +11,7 @@ Diagrama que permite a modelagem física de um sistema, através da visão dos s
 Exemplo: 
 
 Os componentes que fazem parte da solução são apresentados na Figura XX.
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrama_componentes.png" width="1050" height="550"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrama_componentes.png" width="950" height="650"/>
 
 <center>Figura XX - Arquitetura da Solução</center>
 
