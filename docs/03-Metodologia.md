@@ -59,7 +59,7 @@ Sendo assim, o time está organizado da seguinte maneira:
 
 - Equipe de Desenvolvimento:
 1. Daniel Marcolino
-2. 
+2. mais alguem
 3.
 4.
 
