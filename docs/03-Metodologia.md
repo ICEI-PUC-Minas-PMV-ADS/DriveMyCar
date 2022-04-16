@@ -18,9 +18,9 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+Para o controle de versão e gestão do código fonte do projeto, adotamos um modelo baseado no Gitflow abordado por Vicent Driessen.
+
+![Gitflow](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/gest%C3%A3o%20de%20Codigo%20Fonte.png)
 
 O projeto segue a seguinte convenção para o nome de branches:
 
