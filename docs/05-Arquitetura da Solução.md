@@ -20,13 +20,16 @@ A solução implementada conta com os seguintes módulos:
  - **News API** - plataforma que permite o acesso às notícias exibidas no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
-
-
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
-
 Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
+
+
+
+## Diagrama de ...
+
+
+
+
+
 
 ## Tecnologias Utilizadas
 
