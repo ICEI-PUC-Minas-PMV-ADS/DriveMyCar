@@ -5,6 +5,23 @@
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
+
+# Relação de Ambientes de Trabalho
+
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+
+| Ambiente | Plataforma | Link de Acesso |
+--------- | ---------- |  -------------  |
+| Repositório de código fonte | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/teams/caoportado/repositories   |
+| Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/tree/main/docs |
+| Projeto de Interface e  Wireframes | MarvelApp    | https://marvelapp.com/4hd6091 |
+| Gerenciamento do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/projects/1 |
+
+
+## Gerenciamento de Projeto
+
+Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como, Develop e Feature.
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
