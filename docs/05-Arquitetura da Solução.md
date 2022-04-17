@@ -15,7 +15,7 @@ A solução implementada conta com os seguintes módulos:
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
      - **Veículos** - seção de anúncios de veículos disponíveis para aluguel.
-     - **Solicitações** - registro de todas as solicitações de aluguel já efetuadas pelo usuário.
+     - **Propostas** - registro de todas as solicitações de aluguel já efetuadas pelo usuário.
      - **Dados do usuário** - seção que contém os dados do usuário, disponíveis para visualização e edição.
      - **Favoritos** - lista de veículos salvos como favoritos para acessar posteriormente.
 
@@ -27,10 +27,7 @@ A solução implementada conta com os seguintes módulos:
 ## Diagrama de Classes
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas.
 
-
-
-
-
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrama_de_classes.png">
 
 
 
