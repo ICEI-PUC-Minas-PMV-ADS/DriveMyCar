@@ -53,16 +53,15 @@ nomenclaturas:
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 Sendo assim, o time está organizado da seguinte maneira:
 
-- Scrum Master: 
+- Scrum Master: João Victor Garcia Leite Santana
 
-- Product Owner: 
+- Product Owner: Pryscila Martins Cazuza
 
 - Equipe de Desenvolvimento:
 1. Daniel Marcolino
-2. 
-3.
-4.
-
+2. Maykon Edésio Rosa
+3. Roger Bastos Mendes
+4. Valéria De Sena Billafon
 
 
 > **Links Úteis**:
