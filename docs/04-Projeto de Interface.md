@@ -21,7 +21,15 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-<img src="img/Wireframe.png" width="100%" height="100%">   
+![telahome](https://user-images.githubusercontent.com/103007680/163852388-b40a2258-4753-4b45-b57b-b16af50931be.png)  
+
+![tela login](https://user-images.githubusercontent.com/103007680/163853114-b5288ff8-c61b-43c2-8fcb-c9f76c227287.png)
+
+![telaabout](https://user-images.githubusercontent.com/103007680/163853199-c3dc418a-de69-4453-ae54-20f00e1711c9.png)
+
+![telaproprietario](https://user-images.githubusercontent.com/103007680/163853296-66aca84c-4767-46c1-ae93-603f8b5b8757.png)
+
+![telamotorista](https://user-images.githubusercontent.com/103007680/163853354-670821a8-979c-4d3b-b94f-d02cfffa0447.png)
 
 img/Wireframe.png.png
 
