@@ -72,7 +72,30 @@ Sendo assim, o time está organizado da seguinte maneira:
 
 ### Processo
 
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando a ferramenta de gestão do Github estruturado da seguinte forma:
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando a ferramenta de gestão do Github estruturado com as seguintes listas:
+
+● Backlog:  recebe  as  tarefas  a  serem  trabalhadas  e  representa  o  Product  Backlog. 
+Todas as atividades identificadas no decorrer do projeto também devem ser 
+incorporadas a esta lista.
+
+● To Do:  Esta  lista  representa  o  Sprint  Backlog.  Este  é  o  Sprint  atual  que  estamos 
+trabalhando.
+
+● In Progress: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+
+● Test: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas 
+para  o  “CQ”.  No  final  da  semana,  eu  revejo  essa  lista  para  garantir  que  tudo  saiu 
+perfeito.
+
+● Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de 
+qualidade  e  estão  prontos  para  ser  entregues  ao  usuário.  Não  há  mais  edições  ou 
+revisões necessárias, ele está agendado e pronto para a ação.
+
+● Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta 
+lista juntamente com um comentário sobre o que está travando a tarefa.
+
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/board.png">
 
 
 
