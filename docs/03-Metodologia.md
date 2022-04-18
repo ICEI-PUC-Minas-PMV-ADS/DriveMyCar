@@ -74,7 +74,7 @@ Sendo assim, o time está organizado da seguinte maneira:
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando a ferramenta de gestão do Github estruturado com as seguintes listas:
 
-● Backlog:  recebe  as  tarefas  a  serem  trabalhadas  e  representa  o  Product  Backlog. 
+● Product Backlog:  recebe  as  tarefas  a  serem  trabalhadas  e  representa  o  Product  Backlog. 
 Todas as atividades identificadas no decorrer do projeto também devem ser 
 incorporadas a esta lista.
 
