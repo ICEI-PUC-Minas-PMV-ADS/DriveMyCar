@@ -72,25 +72,31 @@ Sendo assim, o time está organizado da seguinte maneira:
 
 ### Processo
 
-Para gerenciamento de atividades estamos utilizando o Trello listas:
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando a ferramenta de gestão do Github estruturado com as seguintes listas:
 
-Cronograma semanal: Lista de nossas atividades semanais, contendo o backlog já validado e pronto para ser desenvolvido.
+● Product Backlog:  recebe  as  tarefas  a  serem  trabalhadas  e  representa  o  Product  Backlog. 
+Todas as atividades identificadas no decorrer do projeto também devem ser 
+incorporadas a esta lista.
 
-A Fazer: Backlog completo com nossas atividades alinhadas ao sprint atual.
+● To Do:  Esta  lista  representa  o  Sprint  Backlog.  Este  é  o  Sprint  atual  que  estamos 
+trabalhando.
 
-Pendente: Lista de tarefas que estão atrasadas ou pendentes de alguma forma.
+● In Progress: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
 
-Em Teste: Lista com todas as tarefas que estão sendo testadas e validadas.
+● Test: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas 
+para  o  “CQ”.  No  final  da  semana,  eu  revejo  essa  lista  para  garantir  que  tudo  saiu 
+perfeito.
 
-Testado:Lista com todas as tarefas já testadas e validadas com sucesso.
+● Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de 
+qualidade  e  estão  prontos  para  ser  entregues  ao  usuário.  Não  há  mais  edições  ou 
+revisões necessárias, ele está agendado e pronto para a ação.
 
-Finalizado: Lista com todas as tarefas já finalizadas.
+● Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta 
+lista juntamente com um comentário sobre o que está travando a tarefa.
 
-Bloqueio: Lista com todas as tarefas que estão sendo impedidas de darem continuidade, devido a um fator além do que a tarefa necessita.
 
-Dúvidas: Lista de perguntas e informações que precisamos de respostas do orientador.
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/board.png">
 
-O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/uqYi9bFY/gestão-de-projetos e é apresentado, no estado atual, nas Figuras 1 e 2. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
 
 > **Links Úteis**:
@@ -103,18 +109,11 @@ O quadro kanban do grupo no Trello está disponível através da URL https://tre
 
 As ferramentas utilizadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Github
+- Visual Studio Code
+- Whatsapp e Microsoft Teams
+- Marvel App
+- Lucid Chart
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versionamento. As ferramentas de comunicação utilizadas possuem
+integração semelhante e por isso foram selecionadas. Por fim, para criardiagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
