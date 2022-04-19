@@ -24,12 +24,6 @@ A solução implementada conta com os seguintes módulos:
 - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 
-## Diagrama de Classes
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas.
-
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrama_de_classes.png">
-
-
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
