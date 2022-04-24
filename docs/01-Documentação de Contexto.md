@@ -20,8 +20,7 @@ O objetivo geral deste trabalho é o desenvolvimento de um website intitulado DR
 
 <br>• Como objetivos específicos, destacamos baseado no tipo de usuário:
 <br>• Disponibilizar uma forma de cadastro dos dados do veículo para os locatarios;
-<br>• Possibilitar a conexão entre o locatários e Driver My Car;
-<br>• Possibilitar a conexão entre o locador e Driver My Car;
+<br>• Possibilitar a conexão entre o locador/Locatário e Drive My Car;
 <br>• Disponibilizar a busca pelos veículos cadastrados;
 <br>• Permitir o filtro de acordo com as condições de ofertas de locações dos veículos;
 <br>• Implementar ferramenta para que o locador insira os dados básicos necessários à locação;
