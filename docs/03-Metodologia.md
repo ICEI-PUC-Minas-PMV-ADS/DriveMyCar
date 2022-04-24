@@ -12,7 +12,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 --------- | ---------- |  -------------  |
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar   |
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/tree/main/docs |
-| Projeto de Interface e  Wireframes  | GitHub | https://lucid.app/lucidchart/3ff07d41-6d8e-407a-b6db-b100ce4633da/view |    |
+| Projeto de Interface e  Wireframes  | Lucid Chart e Marvelapp | https://lucid.app/lucidchart/3ff07d41-6d8e-407a-b6db-b100ce4633da/view |    |
 | Gerenciamento do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/projects/1 |
 
 
