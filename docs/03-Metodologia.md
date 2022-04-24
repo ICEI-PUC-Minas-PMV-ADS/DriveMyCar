@@ -12,7 +12,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 --------- | ---------- |  -------------  |
 | Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar   |
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/tree/main/docs |
-| Projeto de Interface e  Wireframes |    |    |
+| Projeto de Interface e  Wireframes  | GitHub | https://lucid.app/lucidchart/3ff07d41-6d8e-407a-b6db-b100ce4633da/view |    |
 | Gerenciamento do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/projects/1 |
 
 
@@ -38,13 +38,6 @@ nomenclaturas:
 - `hotfix`: processo exclusivo para correção de bugs encontrados em produção
 
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 
 ## Gerenciamento de Projeto
 
@@ -58,16 +51,12 @@ Sendo assim, o time está organizado da seguinte maneira:
 - Product Owner: Pryscila Martins Cazuza
 
 - Equipe de Desenvolvimento:
-1. Daniel Marcolino
-2. Maykon Edésio Rosa
-3. Roger Bastos Mendes
-4. Valéria De Sena Billafon
+    1. Daniel Marcolino
+    2. Maykon Edésio Rosa
+    3. Roger Bastos Mendes
+    4. Valéria De Sena Billafon
 
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
 
 ### Processo

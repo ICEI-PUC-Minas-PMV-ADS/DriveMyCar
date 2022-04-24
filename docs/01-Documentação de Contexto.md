@@ -14,31 +14,26 @@ Diante disso, torna-se fundamental que exista uma aplicação que de forma prát
 O problema a ser resolvido através desse projeto é a precariedade de opções e alternativas para motoristas de aplicativos que desejam alugar um veículo para trabalhar e a dificuldade que um particular possui para a locação de seu veículo próprio. 
 
 
-
 ## Objetivos
 
 O objetivo geral deste trabalho é o desenvolvimento de um website intitulado DRIVE MY CAR, que de forma prática, amigável e segura, sirva de interface facilitadora entre locatários e locadores, respectivamente: motoristas de aplicativo, com o desejo de alugar um veículo para poder trabalhar e proprietários de veículos, que tenham o desejo de alugar seu veículo para obter uma renda extra.
 
 <br>• Como objetivos específicos, destacamos baseado no tipo de usuário:
-<br>• Disponibilizar uma forma de cadastro dos dados do veículo;
-<br>• Viabilizar inserção de dados da oferta de locação do veículo;
-<br>• Possibilitar a conexão entre o locador e locatário;
-<br>• Fornecer dados básicos dos locatários interessados;
+<br>• Disponibilizar uma forma de cadastro dos dados do veículo para os locatarios;
+<br>• Possibilitar a conexão entre o locatários e Driver My Car;
+<br>• Possibilitar a conexão entre o locador e Driver My Car;
 <br>• Disponibilizar a busca pelos veículos cadastrados;
 <br>• Permitir o filtro de acordo com as condições de ofertas de locações dos veículos;
-<br>• Implementar ferramenta para que o locatário insira os dados básicos necessários à locação para que o locador tenha acesso;
+<br>• Implementar ferramenta para que o locador insira os dados básicos necessários à locação;
 
  
-
-
 ## Justificativa
 
 Em pesquisa² publicada e atualizada em outubro de 2021, pela maior empresa do setor, a UBER, foi relatado que a receita da região da América Latina, em que o país está inserido, cresceu 44% em relação ao mesmo período do ano anterior e mesmo em 2022, com o aumento significativo do combustível e a crise gerada por diversos outros fatores, este número não tem diminuído.  
-Visando este cenário, a aplicação fará o intermédio entre o particular que tem um veículo à disposição para aluguel e o motorista trabalhador que necessita de um aluguel mais facilitado e sem grandes burocracias, como o que vem sendo praticado pelas grandes locadoras de veículos do país.
-
+Visando este cenário, a aplicação fará o intermédio na locação entre o particular que tem um veículo à disposição para aluguel e o motorista trabalhador que necessita de um aluguel, facilitando a contratação do serviço de locação de veiculos.
 
 ## Público-Alvo
 
- O público-alvo foi definido a partir do recorte onde será dada ênfase em atender as demandas dos motoristas em busca de veículos para trabalhar nos apps de mobilidade que chamaremos de “Motoristas Locatários” e também nos motoristas que possuem veículos adicionais para locação ou até mesmo que queiram disponibilizar seus veículos em períodos parciais, que identificamos como “Motoristas Locadores”.
+ O público-alvo foi definido a partir do recorte onde será dada ênfase em atender as demandas dos motoristas em busca de veículos para trabalhar nos apps de mobilidade que chamaremos de “Motoristas Locatários” e também nos motoristas que possuem veículos adicionais para locação, que identificamos como “Motoristas Locadores”.
 
 

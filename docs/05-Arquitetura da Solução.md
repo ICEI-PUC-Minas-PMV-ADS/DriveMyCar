@@ -26,12 +26,8 @@ A solução implementada conta com os seguintes módulos:
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+O site será hospedado na plataforma do GitHub Pages, sendo mantido no ambiente via URL: https://username.github.io
 
+A publicação do site no GitHub pages é feita por meio de uma sincronização da branch main do repositório com o serviço.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar
