@@ -20,7 +20,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 Para o controle de versão e gestão do código fonte do projeto, adotamos um modelo baseado no Gitflow abordado por Vicent Driessen.
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/gitflow.jpg">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrams/gitflow.jpg">
 
 O projeto segue a seguinte convenção para o nome de branches:
 
@@ -84,7 +84,7 @@ revisões necessárias, ele está agendado e pronto para a ação.
 lista juntamente com um comentário sobre o que está travando a tarefa.
 
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/board.png">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrams/board.png">
 
 
 ### Ferramentas
