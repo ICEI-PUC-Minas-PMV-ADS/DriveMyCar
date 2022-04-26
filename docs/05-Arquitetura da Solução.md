@@ -24,27 +24,10 @@ A solução implementada conta com os seguintes módulos:
 - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 
-## Diagrama de Classes
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas.
-
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrama_de_classes.png">
-
-
-
-## Tecnologias Utilizadas
-
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
-
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+O site será hospedado na plataforma do GitHub Pages, sendo mantido no ambiente via URL: https://username.github.io
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+A publicação do site no GitHub pages é feita por meio de uma sincronização da branch main do repositório com o serviço.
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar

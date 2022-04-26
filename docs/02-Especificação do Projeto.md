@@ -67,12 +67,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Rodrigo e Sônia	|Anunciar veículo para locação.	|Precisa anunciar seus veículos para locação.|
-|Rodrigo |	Encontrar motoristas que se encaixem no perfil desejado.	|Encontrar motoristas que se encaixem no perfil desejado.|
+|Rodrigo |	Encontrar motoristas que se encaixem no perfil desejado.	|Otimizar a locação dos seus veiculos.|
 |Rodrigo e Sônia|	Realizar o contato com o locatário e validar informações.|	Precisa fazer contato para concluir o negócio (locação).|
 |Sônia e João Hélvecio|	Navegar com facilidade no site.	|Conseguir intuir bem os comandos, pois usualmente encontra dificuldade em sites que possuem muita informação.|
-|Felipe|	Obter informações detalhadas sobre a oferta dos veículos para locação parcial.|	Precisa definir as melhores opções para locar o veículo para trabalhar conciliando outra atividade.|
-|Felipe|	Formalizar interesse na locação e obter resposta de forma rápida.	|Precisa fazer contato para iniciar a negociação e gostaria de ter uma resposta ágil.|
-|Felipe e João Hélvecio|	Procurar por veículos para rodar em período comercial, durante a semana.|	Não tem veículo e precisa alugar um para trabalhar como motorista de aplicativo no horário comercial.|
+|Felipe e João Hélvecio|	Obter informações detalhadas sobre a oferta dos veículos para locação.|	Precisa definir as melhores opções para locar o veículo para trabalhar como motorista de aplicativo|
+|Felipe e João Hélvecio|	Formalizar interesse na locação e obter resposta de forma rápida.	|Precisa fazer contato para iniciar a negociação e gostaria de ter uma resposta ágil.|
 |Sônia|	Obter segurança no envio e armazenamento dos dados|	Sente insegurança em fornecer alguns tipos de informações pessoais, por medo de fraude.|
 |Felipe|	Ser avisado de novas ofertas de aluguel pelo período desejado|	Gostaria de adiantar-se, quando novas ofertas com seu perfil forem anunciadas no site.|
 |João Hévecio|	Gostaria de ter muitas possibilidades, escolher o modelo de carro que quiser.|	Encontrar a melhor opção, pois possui modelos e marcas de preferência, que o site não seja restrito|
@@ -92,10 +91,9 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-02|	Disponibilizar as ofertas de aluguel de veículos;|	MÉDIA|
 |RF-03|	Solicitar e disponibilizar aos usuários informações basicas e a partir disso realizar a elaboração de perfis e anúncio;	|ALTA|
 |RF-04|	Deve possuir cadastro de clientes, para anunciantes e interessados na locação de veículos;|	ALTA|
-|RF-05|	Deve possuir caixa de mensagens com a opção de enviar msg direta ao locador;	|BAIXA|
-|RF-06|	Entregar o maior número de anuncios/ofertas de acordo com as informações requeridas;	|MÉDIA|
-|RF-07| O site deve possuir um sistema de "match", para que o locatário marque de forma instantânea interesse na opção de locação desejada e para que o locador consiga formalizar o aluguel da forma mais breve possível;	|BAIXA|
-|RF-08|	Feito a busca das ofertas disponíveis, o usuário pode criar uma alerta para o período desejado, a fim de saber atualizações de novas disponibilidades de veículos;	|BAIXA|
+|RF-05|	Entregar o maior número de anuncios/ofertas de acordo com as informações requeridas;	|MÉDIA|
+|RF-06| O site deve possuir um sistema de "match", para que o locatário marque de forma instantânea interesse na opção de locação desejada e salve como favorita a opção de locação, para que consiga formalizar o aluguel em momento posterior;	|BAIXA|
+|RF-07|	Feito a busca das ofertas disponíveis, o usuário pode criar uma alerta para o período desejado, a fim de saber atualizações de novas disponibilidades de veículos;	|BAIXA|
 
 
 
@@ -119,5 +117,4 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 |--|-------------------------------------------------------|
 |RE-01|	O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 26/06/2022|
 |RE-02|	O aplicativo deve se restringir às tecnologias básicas da Web no Front-end|
-|RE-03|	O site não deve permitir a locação para outros fins além de transporte por aplicativos|
-+
+|RE-03|	O site não deve permitir a locação para outros fins além de transporte por aplicativos

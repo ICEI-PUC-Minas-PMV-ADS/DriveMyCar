@@ -9,14 +9,13 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+O Fluxo de usuário (User Flow) para mapear todas as telas do site e traçar os possíveis caminhos de ações de fornecedor final (Dono de veiculos), cliente final (Motorista Locador) e Drive My Car (Intermediador locatário), dentro do site formam o diagrama abaixo que é apresentado na Figura 1. 
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+A imagem abaixo também pode ser consultada através do link: https://lucid.app/lucidchart/3ff07d41-6d8e-407a-b6db-b100ce4633da/view?page=0_0&invitationId=inv_6054800d-76fa-444c-a361-1cd64dd9282e# onde é possível ampliar para visualizar melhor o fluxo. A tela sera, apresentada posteriormente em detalhes.
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+
+##### Figura 1: Fluxo de usuário para a pagina DriveMyCar
+![UserFlow](https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/068a5cc56f1dd34552189106c1fde85e37623970/docs/img/UserFlow.png)
 
 
 ## Wireframes
@@ -31,15 +30,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ![telamotorista](https://user-images.githubusercontent.com/103007680/163853354-670821a8-979c-4d3b-b94f-d02cfffa0447.png)
 
-img/Wireframe.png.png
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
