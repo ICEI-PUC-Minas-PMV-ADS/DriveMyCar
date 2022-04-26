@@ -11,7 +11,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 ### <span style="color:Green">**`Rodrigo Monteiro`**
 
 
-|<img src="img/Rodrigo.jpg" width="160" height="100">   | **Rodrigo Monteiro** <br> 47 anos   |
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/users/Rodrigo.jpg" width="160" height="100">   | **Rodrigo Monteiro** <br> 47 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Advogado 
 |**Principais Aplicativos Utilizados** |Instagram, Facebook, Internet Banking, Uber, 99 Pop e Waze
@@ -23,7 +23,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 ### <span style="color:Green">**`Sônia Maria`**
 
 
-|<img src="img/Sonia.jpg" width="160" height="100">   | **Sônia Maria** <br> 56 anos   |
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/users/Sonia.jpg" width="160" height="100">   | **Sônia Maria** <br> 56 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Contadora 
 |**Principais Aplicativos Utilizados** |Instagram, IQ Option, Whatsapp, Canvas, Waze e Hotel Hurbano
@@ -36,7 +36,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 ### <span style="color:Green">**`Felipe Almeida`**
 
 
-|<img src="img/Felipe.jpg" width="160" height="100">   | **Felipe Almeida** <br> 24 anos   |
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/users/Felipe.jpg" width="160" height="100">   | **Felipe Almeida** <br> 24 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Frentista 
 |**Principais Aplicativos Utilizados** |Instagram, Facebook, Whatsapp, Uber, Waze e Telegram
@@ -48,7 +48,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 ### <span style="color:Green">**`João Hélvecio`**
 
 
-|<img src="img/Joao.jpg" width="150" height="100">   | **João Hélvecio** <br> 63 anos   |
+|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/users/Joao.jpg" width="150" height="100">   | **João Hélvecio** <br> 63 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Aposentado 
 |**Principais Aplicativos Utilizados** |Whatsapp, Uber, Waze e Radio Itatiaia

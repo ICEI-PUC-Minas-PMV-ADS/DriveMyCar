@@ -8,7 +8,7 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 
 Os componentes que fazem parte da solução são apresentados na Figura que se segue.
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrama_componentes.png">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/diagrams/diagrama_componentes.png">
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
