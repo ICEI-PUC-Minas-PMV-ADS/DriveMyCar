@@ -90,10 +90,10 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-01|	Deve possuir tela de home com possibilidade de busca dos veiculos disponiveis;|	ALTA|
 |RF-02|	Disponibilizar as ofertas de aluguel de veículos;|	MÉDIA|
 |RF-03|	Solicitar e disponibilizar aos usuários informações basicas e a partir disso realizar a elaboração de perfis e anúncio;	|ALTA|
-|RF-04|	Deve possuir cadastro de clientes, para anunciantes e interessados na locação de veículos;|	ALTA|
-|RF-05|	Entregar o maior número de anuncios/ofertas de acordo com as informações requeridas;	|MÉDIA|
-|RF-06| O site deve possuir um sistema de "match", para que o locatário marque de forma instantânea interesse na opção de locação desejada e salve como favorita a opção de locação, para que consiga formalizar o aluguel em momento posterior;	|BAIXA|
-|RF-07|	Feito a busca das ofertas disponíveis, o usuário pode criar uma alerta para o período desejado, a fim de saber atualizações de novas disponibilidades de veículos;	|BAIXA|
+|RF-04|	Deve possuir cadastro de especifico para o locador com verificação de (documentos , data/hora e valor)  outro especifico para locatario com verificação0 de (documentos , data e faixa de valor  ;|	ALTA|
+|RF-05|	Entregar os anuncios/ofertas para o locador por opções de data, faixa de valor e tipo;	|MÉDIA|
+|RF-06| O site deve possuir um sistema de marcação, para que o locatário marque de forma instantânea interesse na opção de locação desejada e salve como favorita a opção de locação, para que consiga formalizar o aluguel em momento posterior;	|MÉDIA|
+|RF-07|	Fazer as buscas das ofertas disponíveis, o usuário pode criar definir uma janela de datas para o período desejado, a fim de saber atualizações de novas disponibilidades de veículos;	|BAIXA|
 
 
 
