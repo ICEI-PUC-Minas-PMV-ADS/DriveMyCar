@@ -87,7 +87,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01|	Deve possuir tela de home com possibilidade de busca dos veiculos disponiveis;|	ALTA|
+|RF-01|	Deve possuir tela de home e fornecer acesso tela cadastro de locador  ;|	ALTA|
 |RF-02|	Disponibilizar as ofertas de aluguel de veículos;|	MÉDIA|
 |RF-03|	Disponibilizar aos usuários informações basicas como categoria , valor e a partir disso realizar buscas de anúncio que atenda o perfil;	|ALTA|
 |RF-04|	Deve possuir cadastro de especifico para o locador com verificação de (documentos , data/hora e valor)  outro especifico para locatario com verificação de (documentos , data e faixa de valor  ;|	ALTA|
