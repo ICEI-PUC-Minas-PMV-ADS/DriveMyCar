@@ -76,13 +76,14 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-01|	Deve possuir tela de Home e fornecer acesso a pagina de cadastro de locatário e tambem login para locatários já cadastrados  ;|	ALTA|
-|RF-02|	Disponibilizar as ofertas de aluguel de veículos;|	MÉDIA|
-|RF-03|	Disponibilizar aos usuários informações basicas como categoria, valor, regime de KM e a partir disso realizar buscas de anúncio que atenda o perfil;	|ALTA|
-|RF-04|	Deve possuir cadastro de especifico para o locatario com verificação de (documentos , data e faixa de valor  ;|	ALTA|
-|RF-05|	Entregar os anuncios/ofertas para o locador por opções e data, faixa de valor e tipo;	|MÉDIA|
-|RF-06| O site deve possuir um sistema de marcação, para que o locatário marque de forma instantânea interesse na opção de locação desejada e salve como favorita a opção de locação, para que consiga formalizar o aluguel em momento posterior;	|MÉDIA|
-|RF-07|	Fazer as buscas das ofertas disponíveis, o usuário pode criar definir uma janela de datas para o período desejado, a fim de saber atualizações de novas disponibilidades de veículos;	|BAIXA|
-
+|RF-02|	Deve possuir cadastro de usuario  para o locatario acessar a home logada e visualizar as ofertas de veiculos para locação;|	ALTA|
+|RF-03|	Disponibilizar as ofertas de aluguel de veículos;|	MÉDIA|
+|RF-04|	Disponibilizar aos usuários informações basicas como categoria, valor, tipo de veiculo, regime de KM e a partir disso realizar buscas de anúncio que atenda o perfil;	|ALTA|
+|RF-05|	Deve disponibilizar cadastro especifico para o locatario fornecer os arquivos para a verificação documental  e validação das informações pessoais ;|	ALTA|
+|RF-06|	Fazer as buscas das ofertas disponíveis, o usuário pode definir um periodo de datas para o dia e hora desejados, a fim de saber atualizações de novas disponibilidades de veículos;	|MÉDIA|
+|RF-07| O site deve possuir um sistema de marcação, para que o locatário marque de forma instantânea interesse na opção de locação desejada e salve como favorita a opção de locação, para que consiga formalizar o aluguel em momento posterior;	|BAIXA|
+|RF-08| O site deve possibilitar o cadastro das informações financeiras como Cartão de Credito e chave PIX para o pagamento do contrato e caução;	|ALTA|
+|RF-09| Fornecer pagina com historico das solicitações ja realizadas pelo locatário, sejam em andamento ou encerradas;	|ALTA|
 
 
 ### Requisitos não Funcionais
@@ -91,7 +92,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01|	O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);|	ALTA|
+|RNF-01|	O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages,);|	ALTA|
 |RNF-02|	O site deverá ser responsivo permitindo a visualização em um celular de forma adequada	|ALTA|
 |RNF-03|	O site deve ter bom nível de contraste entre os elementos da tela em conformidade	|MÉDIA|
 |RNF-04|	O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)	|ALTA|
