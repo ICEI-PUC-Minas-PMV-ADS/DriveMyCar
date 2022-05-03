@@ -19,7 +19,7 @@ A solução implementada conta com os seguintes módulos:
      - **Dados do usuário** - seção que contém os dados do usuário, disponíveis para visualização e edição.
      - **Favoritos** - lista de veículos salvos como favoritos para acessar posteriormente.
 
-- **Drive My Car API** - plataforma que permite o acesso a todos os dados exibidos no site.
+- **API de terceiros** - plataforma que permite o acesso a todos os dados exibidos no site.
 
 - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
