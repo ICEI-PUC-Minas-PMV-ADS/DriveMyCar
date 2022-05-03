@@ -8,17 +8,6 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 ## Personas
 
 
-### <span style="color:Green">**`Rodrigo Monteiro`**
-
-
-|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/users/Rodrigo.jpg" width="160" height="100">   | **Rodrigo Monteiro** <br> 47 anos   |
-|:---------------------------------------:|:-------------------------------:|
-|**Ocupação** | Advogado 
-|**Principais Aplicativos Utilizados** |Instagram, Facebook, Internet Banking, Uber, 99 Pop e Waze
-|**Motivação** |Familia, Rentabilidade, Liberdade
-|**Frustrações** |Burocracias, Desvalorização do trabalho, Custo Brasil|
-|**Hobbies/Histórias** |Jogar Futebol, Churrascos, Proprietário de Frota|
- 
   
 ### <span style="color:Green">**`Sônia Maria`**
 
@@ -66,15 +55,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Rodrigo e Sônia	|Anunciar veículo para locação.	|Precisa anunciar seus veículos para locação.|
-|Rodrigo |	Encontrar motoristas que se encaixem no perfil desejado.	|Otimizar a locação dos seus veiculos.|
-|Rodrigo e Sônia|	Realizar o contato com o locatário e validar informações.|	Precisa fazer contato para concluir o negócio (locação).|
-|Sônia e João Hélvecio|	Navegar com facilidade no site.	|Conseguir intuir bem os comandos, pois usualmente encontra dificuldade em sites que possuem muita informação.|
+|
+|
+|Sônia e João Hélvecio|	Navegar com facilidade no site de locação.	|Conseguir entender bem os comandos, pois usualmente encontra dificuldade em sites que possuam muita informação.|
 |Felipe e João Hélvecio|	Obter informações detalhadas sobre a oferta dos veículos para locação.|	Precisa definir as melhores opções para locar o veículo para trabalhar como motorista de aplicativo|
 |Felipe e João Hélvecio|	Formalizar interesse na locação e obter resposta de forma rápida.	|Precisa fazer contato para iniciar a negociação e gostaria de ter uma resposta ágil.|
 |Sônia|	Obter segurança no envio e armazenamento dos dados|	Sente insegurança em fornecer alguns tipos de informações pessoais, por medo de fraude.|
 |Felipe|	Ser avisado de novas ofertas de aluguel pelo período desejado|	Gostaria de adiantar-se, quando novas ofertas com seu perfil forem anunciadas no site.|
-|João Hévecio|	Gostaria de ter muitas possibilidades, escolher o modelo de carro que quiser.|	Encontrar a melhor opção, pois possui modelos e marcas de preferência, que o site não seja restrito|
+|João Hévecio|	Gostaria de ter possibilidade de escolher o modelo de carro que quiser.|	Encontrar a melhor opção, pois possui modelos e marcas de preferência, que o site não seja restrito|
 
 
 ## Requisitos
@@ -87,11 +75,11 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01|	Deve possuir tela de home e fornecer acesso tela cadastro de locador  ;|	ALTA|
+|RF-01|	Deve possuir tela de Home e fornecer acesso a pagina de cadastro de locatário e tambem login para locatários já cadastrados  ;|	ALTA|
 |RF-02|	Disponibilizar as ofertas de aluguel de veículos;|	MÉDIA|
-|RF-03|	Disponibilizar aos usuários informações basicas como categoria , valor e a partir disso realizar buscas de anúncio que atenda o perfil;	|ALTA|
-|RF-04|	Deve possuir cadastro de especifico para o locador com verificação de (documentos , data/hora e valor)  outro especifico para locatario com verificação de (documentos , data e faixa de valor  ;|	ALTA|
-|RF-05|	Entregar os anuncios/ofertas para o locador por opções de data, faixa de valor e tipo;	|MÉDIA|
+|RF-03|	Disponibilizar aos usuários informações basicas como categoria, valor, regime de KM e a partir disso realizar buscas de anúncio que atenda o perfil;	|ALTA|
+|RF-04|	Deve possuir cadastro de especifico para o locatario com verificação de (documentos , data e faixa de valor  ;|	ALTA|
+|RF-05|	Entregar os anuncios/ofertas para o locador por opções e data, faixa de valor e tipo;	|MÉDIA|
 |RF-06| O site deve possuir um sistema de marcação, para que o locatário marque de forma instantânea interesse na opção de locação desejada e salve como favorita a opção de locação, para que consiga formalizar o aluguel em momento posterior;	|MÉDIA|
 |RF-07|	Fazer as buscas das ofertas disponíveis, o usuário pode criar definir uma janela de datas para o período desejado, a fim de saber atualizações de novas disponibilidades de veículos;	|BAIXA|
 
