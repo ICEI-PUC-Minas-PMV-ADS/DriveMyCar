@@ -8,17 +8,6 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 ## Personas
 
 
-### <span style="color:Green">**`Rodrigo Monteiro`**
-
-
-|<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/master/docs/img/users/Rodrigo.jpg" width="160" height="100">   | **Rodrigo Monteiro** <br> 47 anos   |
-|:---------------------------------------:|:-------------------------------:|
-|**Ocupação** | Advogado 
-|**Principais Aplicativos Utilizados** |Instagram, Facebook, Internet Banking, Uber, 99 Pop e Waze
-|**Motivação** |Familia, Rentabilidade, Liberdade
-|**Frustrações** |Burocracias, Desvalorização do trabalho, Custo Brasil|
-|**Hobbies/Histórias** |Jogar Futebol, Churrascos, Proprietário de Frota|
- 
   
 ### <span style="color:Green">**`Sônia Maria`**
 
@@ -66,15 +55,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Rodrigo e Sônia	|Anunciar veículo para locação.	|Precisa anunciar seus veículos para locação.|
-|Rodrigo |	Encontrar motoristas que se encaixem no perfil desejado.	|Otimizar a locação dos seus veiculos.|
-|Rodrigo e Sônia|	Realizar o contato com o locatário e validar informações.|	Precisa fazer contato para concluir o negócio (locação).|
-|Sônia e João Hélvecio|	Navegar com facilidade no site.	|Conseguir intuir bem os comandos, pois usualmente encontra dificuldade em sites que possuem muita informação.|
+|Sônia e João Hélvecio|	Navegar com facilidade no site de locação.	|Conseguir entender bem os comandos, pois usualmente encontra dificuldade em sites que possuam muita informação.|
 |Felipe e João Hélvecio|	Obter informações detalhadas sobre a oferta dos veículos para locação.|	Precisa definir as melhores opções para locar o veículo para trabalhar como motorista de aplicativo|
 |Felipe e João Hélvecio|	Formalizar interesse na locação e obter resposta de forma rápida.	|Precisa fazer contato para iniciar a negociação e gostaria de ter uma resposta ágil.|
 |Sônia|	Obter segurança no envio e armazenamento dos dados|	Sente insegurança em fornecer alguns tipos de informações pessoais, por medo de fraude.|
 |Felipe|	Ser avisado de novas ofertas de aluguel pelo período desejado|	Gostaria de adiantar-se, quando novas ofertas com seu perfil forem anunciadas no site.|
-|João Hévecio|	Gostaria de ter muitas possibilidades, escolher o modelo de carro que quiser.|	Encontrar a melhor opção, pois possui modelos e marcas de preferência, que o site não seja restrito|
+|João Hévecio|	Gostaria de ter possibilidade de escolher o modelo de carro que quiser.|	Encontrar a melhor opção, pois possui modelos e marcas de preferência, que o site não seja restrito|
 
 
 ## Requisitos
@@ -85,28 +71,29 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-01|	Deve possuir tela de home com possibilidade de busca dos veiculos disponiveis;|	ALTA|
-|RF-02|	Disponibilizar as ofertas de aluguel de veículos;|	MÉDIA|
-|RF-03|	Solicitar e disponibilizar aos usuários informações basicas e a partir disso realizar a elaboração de perfis e anúncio;	|ALTA|
-|RF-04|	Deve possuir cadastro de clientes, para anunciantes e interessados na locação de veículos;|	ALTA|
-|RF-05|	Entregar o maior número de anuncios/ofertas de acordo com as informações requeridas;	|MÉDIA|
-|RF-06| O site deve possuir um sistema de "match", para que o locatário marque de forma instantânea interesse na opção de locação desejada e salve como favorita a opção de locação, para que consiga formalizar o aluguel em momento posterior;	|BAIXA|
-|RF-07|	Feito a busca das ofertas disponíveis, o usuário pode criar uma alerta para o período desejado, a fim de saber atualizações de novas disponibilidades de veículos;	|BAIXA|
-
+|ID    |Descrição do Requisito| Prioridade |
+|------|----------------------|------------|
+|RF-01|	Deve possuir tela "Home" e fornecer acesso a pagina de cadastro de locatário e tambem login para locatários já cadastrados;|ALTA|
+|RF-02|	Deve possuir cadastro de usuario  para o locatario acessar a home logada e visualizar as ofertas de veiculos para locação;|ALTA|
+|RF-03|	Disponibilizar as ofertas de aluguel de veículos;|MÉDIA|
+|RF-04|	Disponibilizar aos usuários informações basicas como categorias, valores, franquia de KM permitindo a busca de anúncios que atendam o perfil;|ALTA|
+|RF-05|	Deve disponibilizar cadastro especifico para o locatario fornecer os arquivos para a verificação documental e validação das informações pessoais;|ALTA|
+|RF-06|	Fazer as buscas de ofertas, onde o usuário pode definir um periodo e hora desejados, a fim de saber atualizações de novas disponibilidades de veículos;|MÉDIA|
+|RF-07| Sistema de marcação, para que o locatário salve como favorita a opção de locação, para que consiga formalizar o aluguel em novos agendamentos;|BAIXA|
+|RF-08| O site deve possibilitar o cadastro das informações financeiras como cartão de credito e chave PIX para o pagamento do contrato e caução;|ALTA|
+|RF-09| Fornecer pagina com historico das solicitações ja realizadas pelo locatário, sejam em andamento ou encerradas.|ALTA|
 
 
 ### Requisitos não Funcionais
 
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-01|	O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);|	ALTA|
-|RNF-02|	O site deverá ser responsivo permitindo a visualização em um celular de forma adequada	|ALTA|
-|RNF-03|	O site deve ter bom nível de contraste entre os elementos da tela em conformidade	|MÉDIA|
-|RNF-04|	O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)	|ALTA|
+|ID  | Descrição do Requisito  |Prioridade |
+|----|-------------------------|----|
+|RNF-01|	O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages);|ALTA|
+|RNF-02|	O site deverá ser responsivo permitindo a visualização em um celular de forma adequada;|ALTA|
+|RNF-03|	O site deve ter bom nível de contraste entre os elementos da tela em conformidade;|MÉDIA|
+|RNF-04|	O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).|ALTA|
 
 
 ## Restrições

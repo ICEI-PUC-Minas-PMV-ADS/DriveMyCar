@@ -15,7 +15,7 @@ A imagem abaixo também pode ser consultada através do link: https://lucid.app/
 
 
 ##### Figura 1: Fluxo de usuário para a pagina DriveMyCar
-![UserFlow](https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/068a5cc56f1dd34552189106c1fde85e37623970/docs/img/UserFlow.png)
+![UserFlow](https://github.com/ICEI-PUC-Minas-PMV-ADS/DriveMyCar/blob/4a6fc5cef31ccd3a0f002573467dcfcde9b8ea7d/docs/img/UserFlow2.png)
 
 
 ## Wireframes
