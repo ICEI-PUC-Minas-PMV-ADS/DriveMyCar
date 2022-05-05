@@ -1,5 +1,6 @@
 # DRIVE MY CAR
 
+![Logo Drive my car](/docs/contributor/assets/logo-drive-my-car.png?lang=pt-BR)
 
 `CURSO`
 Analise e Desenvolvimento de Sistemas
