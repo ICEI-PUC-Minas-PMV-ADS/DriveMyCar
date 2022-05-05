@@ -1,5 +1,7 @@
 ## Projeto de Interface
-Descrição
+Pré-requisitos: Documentação de Especificação
+
+Visão geral da interação do usuário pelas telas do sistema e protótipo utilizando termos e conceitos que tenham como base a experiência das pessoas que mais vão utilizar o sistema. (wireframes).
 
 
 ## User Flow
