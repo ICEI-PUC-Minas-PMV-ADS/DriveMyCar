@@ -262,3 +262,11 @@ animation-name: fadeOutLeft;
   transform: translateX(-20px);
 }
 }
+
+.box-tipo-pessoa{
+  border: 1px solid var(--first-color-light);
+  border-radius: 4px;
+  background-color: white;
+  padding: 6px 0 0 10px;
+  height: 35px;
+}
