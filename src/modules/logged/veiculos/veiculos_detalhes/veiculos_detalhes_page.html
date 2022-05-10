@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+    <title>Minha primeira página CSS</title>
+    <link rel="stylesheet" href="css/meuestilo_Docs.css">
+  </style>
+</head>
+
+<body>
+
+<!-- Menu de navegacao do site -->
+<ul class="navbar">
+  <li><a href="index.html">HOME</a>
+  <li><a href="login.html">LOGIN</a>
+  <li><a href="frota.html">FROTA</a>
+  <li><a href="links.html">QUEM SOMOS</a>
+</ul>
+
+<!-- Conteudo -->
+<img src="img/logo_without_background.png">  <br>
+ <img src="img/CORO-L.png" width= "10%" height="30%"> 
+ <img src="img/CRON-L.png" width= "10%" height="30%"> 
+ <img src="img/SANX-L.png" width= "10%" height="30%">
+ <img src="img/KWID-L.png" width= "10%" height="30%">
+ <img src="img/ETIA-L.png" width= "10%" height="30%">
+ <img src="img/LOGU-L.png" width= "10%" height="30%">
+ <img src="img/POLA-L.png" width= "10%" height="30%">
+
+<br>
+
+<h1>Confira as informações necessárias.</h1>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Contatos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div>
+    <h1>IDENTIFICAÇÃO DAS PARTES CONTRATANTES</h1>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+        INFORMAÇÕES LOCATÁRIO: COD, NOME, nacionalidade, estado civil, profissão, inscrito no CPF sob o nº. XXXXXX, portador do RG nº. 0000000,
+         expedido por SSP /DF, residente e domiciliado em endereço – MINAS GERAIS CEP xxxxxxxx.
+        <br>
+        <br>
+        <form id="form-contato">
+            <div class="form-group row">
+                <div class="col-sm-3">
+                    <label for="inputId">Nome de Usuario Drive My Car</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="DMC22-0000001" disabled>
+            </div>
+                <div class="col-sm-6">
+                    <label for="inputNome">Nome Completo (*)</label>
+                    <input type="text" class="form-control" id="inputNome" required placeholder="Felipe Almeida" disabled>
+            </div>
+                <div class="col-sm-3">
+                    <label for="inputId">Nacionalidade (*)</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="Brasileira" disabled>
+            </div>
+                <div class="col-sm-3">
+                    <label for="inputId">Estado Civil</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="Solteiro">
+            </div>
+        </br>
+                <div class="col-sm-3">
+                    <label for="inputId">Profissão</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="Estudante Universitário">
+            </div>
+                <div class="col-sm-3">
+                    <label for="inputSite">CPF (*)</label>
+                    <input type="text" class="form-control" id="inputSite" required placeholder="01617538603" disabled>
+                </div>
+                <div class="col-sm4">
+                    <label for="inputNome">Identidade (*)</label>
+                    <input type="text" class="form-control" id="inputID" required placeholder="MG.14.983.010" disabled>
+            </div>
+                <div id="app" class="col-sm4">
+                    <label for="cep">CEP</label>
+                    <input type="text" class="form-control" v-model="cep" id="cep" onclick="this.value=''" maxlength="8" placeholder="30503-000" value="">
+            </div>
+                <div class="col-sm-5"> <!-- INÍCIO DIV CONTEÚDO DO FORM LOGRADOURO -->
+                    <label for="endereco">Endereço</label>
+                    <input type="text" class="form-control" id="endereco" placeholder="Rua Jose Resende">
+            </div>
+                <div class="col-sm-2">
+                    <label for="numero">Número</label>
+                    <input type="text" class="form-control" id="numero" placeholder="60">
+            </div>
+                <div class="col-sm-4">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" class="form-control" id="bairro" placeholder="Jardim Verde e Amarelo">
+            </div>
+                <div class="col-sm-5">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" class="form-control" id="cidade" placeholder="Betim">
+            </div>
+                <div class="col-sm-3">
+                    <label for="estado">Estado</label>
+                    <select id="estado" class="form-control">
+                        <option selected>Selecione...</option>
+                        <option value="AC">AC - Acre</option>
+                        <option value="AL">AL - Alagoas</option>
+                        <option value="AM">AM - Amazonas</option>
+                        <option value="AP">AP - Amapá</option>
+                        <option value="BA">BA - Bahia</option>
+                        <option value="CE">CE - Ceara</option>
+                        <option value="DF">DF - Distrito Federal</option>
+                        <option value="ES">ES - Espirito Santo</option>
+                        <option value="GO">GO - Goiás</option>
+                        <option value="MA">MA - Maranhão</option>
+                        <option value="MG">MG - Minas Gerais</option>
+                        <option value="MS">MS - Mato Grosso do Sul</option>
+                        <option value="MT">MT - Mato Grosso</option>
+                        <option value="PA">PA - Pará</option>
+                        <option value="PB">PB - Paraíba</option>
+                        <option value="PE">PE - Pernambuco</option>
+                        <option value="PI">PI - Piauí</option>
+                        <option value="PR">PR - Paraná</option>
+                        <option value="RJ">RJ - Rio de Janeiro</option>
+                        <option value="RN">RN - Rio Grande do Norte</option>
+                        <option value="RO">RO - Rondônia</option>
+                        <option value="RR">RR - Roraima</option>
+                        <option value="RS">RS - Rio Grande do Sul</option>
+                        <option value="SC">SC - Santa Catarina</option>
+                        <option value="SE">SE - Sergipe</option>
+                        <option value="SP">SP - São Paulo</option>
+                        <option value="TO">TO - Tocantins</option>
+                    </select>
+                </div>
+
+
+
+
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-3">
+                    <label for="inputTelefone">Telefone cadastrado na UBER/99 (*)</label>
+                    <input type="text" class="form-control" id="inputTelefone" required placeholder="31-99292-5783">
+                </div>
+                <div class="col-sm-3">
+                    <label for="inputEmail">E-mail (*)</label>
+                    <input type="email" class="form-control" id="inputEmail" required placeholder="felipenouber@gmail.com" disabled>
+                </div>
+            </div>
+            <div class="form-group row">
+                               
+                </div>
+                    <div class="Carro-Categoria">
+                    <label for="Carro-Categoria">Tipo Carro-Categoria</label>
+                    <select id="Carro-Categoria" class="form-control">
+                        <option selected>Selecione...</option>
+                        <option value="Padrão sem GNV">Categoria Padrão sem GNV</option>
+                        <option value="Padrão com GNV">Categoria Padrão comm GNV</option>
+                        <option value="Confort sem GNV">Categoria Confort sem GNV</option>
+                        <option value="Confort com GNV">Categoria Confort com GNV</option>     
+                    </select>
+                </div>
+
+                    
+                    </div>
+                </div>
+
+
+            </div>
+            <br>
+<br>
+            <div class="form-group row">    
+                    <div class="col-sm-4">
+                        <label for="inputSite">Upload de documentos em PDF (CNH, Comprovante de Endereço e CPF)</label>
+                        <input type="file" class="form-control" id="inputSite" required placeholder="Carregar arquivos">
+                    </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <br/>
+                
+                    <small>(*) Conforme cadastro no Drive My Car</small>
+                </div>
+                <div>
+                    <input type="submit" id="ok" name="Gerar Contrato" class="btn btn-primary" value="Submeter informações e Prosseguir">
+                </div>
+                <div>
+                    <input type="submit" id="ok" name="Gerar Contrato" class="btn btn-primary" value="Salvar e Sair">
+                </div>
+                <div>
+                    <input type="submit" id="ok" name="Gerar Contrato" class="btn btn-primary" value="Cancelar">
+                </div>
+            </div>
+        </div> 
+            
+
+    </script>
+
+
+<!-- Date e assine sua página, isto é educado! -->
+<address>© 2022 - Drive My Car <br>
+Todos os direitos reservados.</address>
+
+
+</body>
+</html>
+
