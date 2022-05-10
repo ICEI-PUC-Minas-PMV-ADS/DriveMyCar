@@ -17,7 +17,7 @@ A imagem abaixo também pode ser consultada através do link: https://lucid.app/
 
 ## Wireframes
 
-![telahome]
+![telahome]<img src="img/telahomedryve.png">  <br>
 ![tela login](https://user-images.githubusercontent.com/103007680/163853114-b5288ff8-c61b-43c2-8fcb-c9f76c227287.png)
 
 ![telaabout](https://user-images.githubusercontent.com/103007680/163853199-c3dc418a-de69-4453-ae54-20f00e1711c9.png)
