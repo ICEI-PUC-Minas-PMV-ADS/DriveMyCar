@@ -1,0 +1,102 @@
+*{
+    margin:0 auto;
+    box-sizing:border-box;
+    padding: 3px;
+    
+    }
+    #menu ul{
+        max: width 900px;px;
+        list-style:none;
+        padding:0;
+        background-color:rgb(215, 221, 205);
+    }
+    #menu ul li{
+        display:inline-block;
+         padding: 15px;
+    }
+    
+    #menu ul li a{
+        color: #fff;
+        padding:20px
+        display:inline-block;
+       text-decoration: none;
+       transition:background .4s;
+        
+    }
+    #menu ul li a:hover{
+        background-color: rgb(238, 15, 15);
+        }
+      
+    
+        section.pagamento{
+        display:flex;
+        max-width:1100px;
+        justify-content: space-around;
+        padding: 0 2%;
+        flex-wrap:wrap
+        margin: 90px auto;
+    }
+    .descricao-pagamento{ 
+        width: 25px;
+    }
+    .descricao-pagamento h3{
+        color:rgba(100, 99, 97, 0.692);
+        font-size: 20px;
+    }
+    .descricao-pagamento h2{ 
+        color:rgb(78, 175, 53);
+        font-size: 20px;
+    }
+    .form-pagamento{
+        -webkit-box-shadow:-8px 5px 15px 5px #c7c7c7;
+        box-shadow: -8px 5px 15px 5px #c7c7c7;
+        width: 60%;
+        padding:30px 30px 80px 30px;
+        width: 50%;
+    }
+    .form-pagamento form{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .form-pagamento input[type=text]{
+        padding-left:10px;
+        width:100%;
+        height:40px;
+        border:1px solid #ccc;
+    }
+    
+    .form-pagamento input[type=submit]{
+        width:100%;
+        heigt:40px;
+        border:0;
+        cursor: pointer;
+        background-color: #069;
+        color:white;
+    }
+    @media screen and (max-widht:768px){
+    .descricao-pagamento,
+    .form-pagamento{
+        width:100%;
+        margin-bottom:10px;
+    }
+    }
+        
+    .form-100{width:100%; margin-bottom: 10px;}
+    
+    .form-50{width:100%; display:flex;margin-bottom: 10px margin-left -1px;}
+    
+    .form-pagamento label{
+        display:block;
+        margin: botom 8px;
+        font-weight:bold;
+        color:rgb(140,140,140)
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
