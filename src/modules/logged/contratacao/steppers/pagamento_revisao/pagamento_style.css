@@ -26,36 +26,64 @@
     #menu ul li a:hover{
         background-color: rgb(238, 15, 15);
         }
-      
     
-        section.pagamento{
-        display:flex;
-        max-width:1100px;
-        justify-content: space-around;
-        padding: 0 2%;
-        flex-wrap:wrap
-        margin: 90px auto;
+        #imgdrive {
+            position:center;
+        }
+       
+     h1{text-align: center; margin: 10px; padding: 10px; color:gray;}
+    
+    .social-media{
+        display:inline;
+        margin: none;
+       }
+    
+    .menupagamento{
+      display: inline-block;
+    width: 25vw;
+    height: 28vw;
+    background-color: rgb(212, 224, 220);
+    justify-content:center;
+    align-items: center;
+    
+    
     }
-    .descricao-pagamento{ 
-        width: 25px;
+    
+    .menupagamento ul{
+        list-style: none;
+        margin: 10%;
+    
     }
-    .descricao-pagamento h3{
-        color:rgba(100, 99, 97, 0.692);
-        font-size: 20px;
+    .menupagamento ul li{
+        color:green;
+        background-color:rgb(228, 16, 16)
+        clor:#ccc;
+        width: 150px;
+        padding: 10px;
+        font: normal 16px arial;
+    
     }
-    .descricao-pagamento h2{ 
-        color:rgb(78, 175, 53);
-        font-size: 20px;
+    
+     
+    #formulario{
+    display: inline-block;
+    width: 50vw;
+    height: 30vw;
+    align-items: center;
+    
     }
     .form-pagamento{
         -webkit-box-shadow:-8px 5px 15px 5px #c7c7c7;
         box-shadow: -8px 5px 15px 5px #c7c7c7;
-        width: 60%;
+        width: 30%;
         padding:30px 30px 80px 30px;
-        width: 50%;
+        width: 70%;
+        height: 30vw;
+        display: inline-block;
+        
     }
     .form-pagamento form{
-        display:flex;
+        display:inline-block;
         flex-wrap:wrap;
     }
     .form-pagamento input[type=text]{
@@ -87,14 +115,22 @@
     
     .form-pagamento label{
         display:block;
-        margin: botom 8px;
+        margin: botom 10px;
         font-weight:bold;
         color:rgb(140,140,140)
     }
     
+    footer{
+        
+     
+    background-color:#dbdada;
+    text-align:center;
+    font: size 0.8;
+    color:rgb(128, 120, 120)
+    padding:5px;
     
     
-    
+    }
     
     
     
