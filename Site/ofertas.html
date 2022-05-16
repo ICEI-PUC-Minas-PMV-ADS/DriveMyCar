@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+    <title>Ofertas DMC</title>
+    <link rel="stylesheet" href="css/sendbutton.css">
+  </style>
+</head>
+
+<body>
+
+<!-- Menu de navegacao do site -->
+<ul class="navbar">
+    <li><a href="index.html">HOME</a>
+    <li><a href="login.html">LOGIN</a>
+    <li><a href="frota.html">FROTA</a>
+    <li><a href="ofertas.html">OFERTAS</a>
+    <li><a href="links.html">QUEM SOMOS</a>  
+</ul>
+
+<!-- Conteudo -->
+<img src="img/logo_without_background.png"> <br>
+
+<h1>Selecione o veículo de preferência</h1>
+
+<p><label for="">Fabricante:</label>
+<select id="fabricante">
+    <option value="None">Selecione</option>
+    <option value="0">Fabricante</option>
+    <option value="1">Audi</option>
+    <option value="2">BMW</option>
+    <option value="3">Chevrolet</option>
+    <option value="4">Citroen</option>
+    <option value="5">Fiat</option>
+    <option value="6">Ford</option>
+    <option value="7">Hyundai</option>
+    <option value="8">Honda</option>
+    <option value="9">Jeep</option>
+    <option value="10">Mercedes Benz</option>
+    <option value="11">Mitsubishi</option>
+    <option value="12">Nissan</option>
+    <option value="13">Peugeot</option>
+    <option value="14">Renault</option>
+    <option value="15">Toyota</option>
+    <option value="16">Volkswagen</option>
+    <option value="17">Outros</option>
+</select></p>
+
+<p><label for="">Categoria:</label>
+<select id="categoria">
+  <option value="None">Selecione</option>
+    <option value="Hatch">Compacto</option>
+    <option value="Sedan">Sedã</option>
+    <option value="SUV">SUV</option>
+    <option value="Premium">Premium</option>
+</select></p>
+
+<p><label for="">Período:</label>
+<select id="periodo">
+    <option value="None">Selecione</option>
+    <option value="Dia">Diária</option>
+    <option value="Semana">Semanal</option>
+    <option value="Mes">Mensal</option>
+</select></p>
+
+<script>
+    $(document).ready(function() {
+        $('#carros').select2();
+    });
+</script><br>
+
+<ul class="btn">
+    <button> <a class="btn">DIRIGIR</a></button>
+</ul>
+
+
+<!-- Date e assine sua página, isto é educado! -->
+<address>© 2022 - Drive My Car <br>
+Todos os direitos reservados.</address>
+
+
+</body>
+</html>
