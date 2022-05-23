@@ -317,7 +317,7 @@ body {
     display: block;
     position: relative;
     width: 300px;
-    height: 420px;
+    height: 320px;
     background-color: #ff1d1d;
     transition: 0,3s;
     overflow: hidden;
@@ -325,7 +325,8 @@ body {
   }
 
   #box1{
-    display: inline-flex;
+    display: inline-block;
+    float: center;
     position: relative;
     width: 300px;
     height: 420px;
@@ -335,7 +336,19 @@ body {
   }
 
   #box2{
-    display: block;
+    display: inline-block;
+    float: center;
+    position: relative;
+    width: 300px;
+    height: 420px;
+    background-color: #ff1d1d;
+    transition: 0,3s;
+    overflow: hidden;
+  }
+
+  #box3{
+    display: inline-block;
+    float: inline-end;
     position: relative;
     width: 300px;
     height: 420px;
