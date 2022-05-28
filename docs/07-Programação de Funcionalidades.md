@@ -13,9 +13,9 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 | Passos | 1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão de _login_, localizado no menu de navegação; <br/>  4)Preencha os campos com o e-mail e senha cadastrados;<br/> 5) Clique em _entrar_. <br/> 6) Após selecionar o veiculo, clique em prosseguir para pagina de Documentos e contrato| Página vericada <br/> <span style="color:red">(falta parte do Login)|
 |Critéritos de Êxito| •A plataforma deve prosseguir para a tela de pagamento após validar dados do cadastro e receber o upload dos documentos. Sendo assim, o cliente já pode prosseguir com a contratação da locação seguindo para a tela de pagamento na plataforma com as informações inseridas já preenchidas. | Em validação com a proxima página.|
 
-<img src="src\modules\logged\contratacao\steppers\contratacao\img\Tela Documentacao1.png"
+![tela](img%5CTela%20Documentacao1.png)
+![tela2](docs\img\Tela Documentacao1.png)
 
-![Print da tela]"(src\modules\logged\contratacao\steppers\contratacao\img\Tela Documentacao1.png)"
 
 > **Links Úteis**:
 >
