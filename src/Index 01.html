@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title> Drive My Car - Calculadora de Diarias</title>
+
+    <div>
+        <!-- Menu de navegacao do site -->
+        <ul class="navbar" id="topos">
+            <li><a href="index.html">HOME</a>
+            <li><a href="login.html">LOGIN</a>
+            <li><a href="frota.html">FROTA</a>
+            <li><a href="links.html">QUEM SOMOS</a>
+        </ul>
+        </br>
+        </br>
+        <!-- Conteudo -->
+            <img class="Logo" src="img/logo_without_background.png" width= "40%" height="30%" >  <br>
+        </br>
+            <img src="img/CORO-L.png" width= "10%" height="30%"> 
+            <img src="img/CRON-L.png" width= "10%" height="30%"> 
+            <img src="img/SANX-L.png" width= "10%" height="30%">
+            <img src="img/KWID-L.png" width= "10%" height="30%">
+            <img src="img/ETIA-L.png" width= "10%" height="30%">
+            <img src="img/LOGU-L.png" width= "10%" height="30%">
+            <img src="img/POLA-L.png" width= "10%" height="30%">
+      <br>
+    </div>
+</head>
+<body>
+        <div id="container">
+    <div>
+    <h1 class="title">Calculadora de Locação</h1>
+  </div>
+  <div>
+        <form class="tipsForm" id="tipsForm">
+            <label for="bill">
+                <p>Diaria Minima (Minimo 50,00 (Standard sem GNV))</p>
+            </label>
+            <p>
+                R$ <input type=number placeholder="50,00" name="bill" id="bill" class="formInput" >
+            </p>
+            <label for="serviceQual">
+                <p>Personalização Locação?</p>
+            </label>
+            <p>
+                <select name="serviceQual" id="serviceQual" class="formSelect" required>
+                    <option disable selected value="0">- - Escolha uma categoria</option>
+                    <option value="2.0">SUV com GNV</option>
+                    <option value="1.8">SUV sem GNV</option>
+                    <option value="1.4">Confort com GNV</option>
+                    <option value="1.3">Confort sem GNV</option>
+                    <option value="1.1">Standard com GNV</option>
+                    <option value="1.0">Standard sem GNV</option>
+
+                </select>
+            </p>
+            <label for="people">
+                <p> Quantidade de Diarias</p>
+            </label>
+            <p>    
+                <input type="number" placeholder="1" name="people" id="people" cass="formInput" required> Diaria(s)
+            </p>
+            <button type="submit" class="formSubmit">Simular Locação</button>
+        </form>        
+    </div>
+    <div id="totalTip">
+        Locação total:
+        R$ <span id="tip">0.00</span>
+        <span id="each">cada</span>
+    </div>  
+  </div>   
+  <script type="text/javascript" src="src/teste/scripts.js"></script>
+
+
+<!-- Date e assine sua página, isto é educado! -->
+<address>© 2022 - Drive My Car <br>
+    Todos os direitos reservados.</address>
+
+</body>
+</html>
