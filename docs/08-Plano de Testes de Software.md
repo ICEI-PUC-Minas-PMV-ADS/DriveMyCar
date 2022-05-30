@@ -8,6 +8,14 @@ Os requisitos para realização dos testes de software são:
 
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
+| **Caso de Teste** | **CT-00 Confirmação dos dados cadastrais e Upload de documentos**| **Status**|
+|---|---|---|
+| Requisitos Associados|•RF-05 O sistema deve disponibilizar um formulário de cadastro do cliente, para coletar e validar o nome completo, CPF, data de nascimento, endereço e upload dos documentos necessarios para locação; | Em andamento|
+|Objetivo de Teste | Verificar se os campos da pagina estão funcionando corretamente e estão permitindo o registro das informações dos clientes corretamente.| Em análise |
+| Passos | 1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão de _login_, localizado no menu de navegação; <br/>  4)Preencha os campos com o e-mail e senha cadastrados;<br/> 5) Clique em _entrar_. <br/> 6) Após selecionar o veiculo, clique em prosseguir para pagina de Documentos e contrato| Página vericada <br/> <span style="color:red">(falta parte do Login)|
+|Critéritos de Êxito| •A plataforma deve prosseguir para a tela de pagamento após validar dados do cadastro e receber o upload dos documentos. Sendo assim, o cliente já pode prosseguir com a contratação da locação seguindo para a tela de pagamento na plataforma com as informações inseridas já preenchidas. | Em validação com a proxima página.|
+  
+
 |**Caso de Teste**|**Tela Principal**|
 | :-: | :-: |
 |**Requisitos Associados**|<p>RF-03 e RF-04</p><p>A tela principal apresenta um formulário solicitando e-mail e senha do usuário para que ele possa logar no sistema. Os campos devem ser preenchidos com dados previamente cadastrados. Caso o usuário não possua o cadastro no sistema, um alert solicitará o cadastro.</p>|
