@@ -51,56 +51,68 @@
         <br>
         <br>
         <form id="form-contato">
+          <div>
             <div class="form-group row">
                 <div class="col-sm-3">
                     <label for="inputId">Nome de Usuario Drive My Car</label>
                     <input type="text" class="form-control" id="inputId" placeholder="DMC22-0000001" disabled>
-            </div>
-                <div class="col-sm-6">
+              </div>
+                <div class="col-sm-5">
                     <label for="inputNome">Nome Completo (*)</label>
                     <input type="text" class="form-control" id="inputNome" required placeholder="Felipe Almeida" disabled>
-            </div>
-                <div class="col-sm-3">
+              </div>
+                <div class="col-sm-2">
                     <label for="inputId">Nacionalidade (*)</label>
-                    <input type="text" class="form-control" id="inputId" placeholder="Brasileira" disabled>
-            </div>
-                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="inputId" placeholder="Brasileira">
+              </div>
+                <div class="col-sm-2">
                     <label for="inputId">Estado Civil</label>
                     <input type="text" class="form-control" id="inputId" placeholder="Solteiro">
-            </div>
-        </br>
+              </div>        
                 <div class="col-sm-3">
                     <label for="inputId">Profissão</label>
                     <input type="text" class="form-control" id="inputId" placeholder="Estudante Universitário">
-            </div>
-                <div class="col-sm-3">
+              </div>
+                <div class="col-sm-2">
                     <label for="inputSite">CPF (*)</label>
                     <input type="text" class="form-control" id="inputSite" required placeholder="01617538603" disabled>
-                </div>
-                <div class="col-sm4">
+              </div>
+                <div class="col-sm-2">
                     <label for="inputNome">Identidade (*)</label>
-                    <input type="text" class="form-control" id="inputID" required placeholder="MG.14.983.010" disabled>
-            </div>
-                <div id="app" class="col-sm4">
+                    <input type="text" class="form-control" id="inputID" required placeholder="MG.14.983.010">
+              </div>
+                <div class="col-sm-2">
                     <label for="cep">CEP</label>
-                    <input type="text" class="form-control" v-model="cep" id="cep" onclick="this.value=''" maxlength="8" placeholder="30503-000" value="">
-            </div>
+                    <input type="text" class="form-control" v-model="cep" id="cep" onclick="this.value=''" maxlength="8" placeholder="30503-000" value="" disabled>
+              </div>
+                <div class="col-sm-2">
+                    <label for="cep">CNH</label>
+                    <input type="text" class="form-control" v-model="cep" id="cep" onclick="this.value=''" maxlength="8" placeholder="03552443409" value="" disabled>
+              </div>
+                <div class="col-sm-1">
+                    <label for="cep">Cat.</label>
+                    <input type="text" class="form-control" v-model="cep" id="cep" onclick="this.value=''" maxlength="8" placeholder="AB" value="" disabled>
+              </div>
                 <div class="col-sm-5"> <!-- INÍCIO DIV CONTEÚDO DO FORM LOGRADOURO -->
                     <label for="endereco">Endereço</label>
-                    <input type="text" class="form-control" id="endereco" placeholder="Rua Jose Resende">
-            </div>
-                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="endereco" placeholder="Rua Jose Resende" disabled>
+              </div>
+                <div class="col-sm-1">
                     <label for="numero">Número</label>
-                    <input type="text" class="form-control" id="numero" placeholder="60">
-            </div>
+                    <input type="text" class="form-control" id="numero" placeholder="60" disabled>
+              </div>
+                <div class="col-sm-2">
+                    <label for="numero">Complemento</label>
+                    <input type="text" class="form-control" id="numero" placeholder="Casa fundos" disabled>
+              </div>
                 <div class="col-sm-4">
                     <label for="bairro">Bairro</label>
-                    <input type="text" class="form-control" id="bairro" placeholder="Jardim Verde e Amarelo">
-            </div>
-                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="bairro" placeholder="Jardim Verde e Amarelo" disabled>
+              </div>
+                <div class="col-sm-3">
                     <label for="cidade">Cidade</label>
-                    <input type="text" class="form-control" id="cidade" placeholder="Betim">
-            </div>
+                    <input type="text" class="form-control" id="cidade" placeholder="Betim" disabled>
+              </div>
                 <div class="col-sm-3">
                     <label for="estado">Estado</label>
                     <select id="estado" class="form-control">
@@ -137,26 +149,45 @@
 
             </div>
             <div class="form-group row">
+                Detalhes Conta Aplicativos:
+                <br>
+            </div>
+            <div class="col-sm-3">
+            <label for="AppSelect">Quais Apps</label>
+            <select id="AppSelect" class="form-control">
+                <option selected>Selecione...</option>
+                <option value="Padrão sem GNV">Uber</option>
+                <option value="Padrão com GNV">99 Pop</option>
+                <option value="Confort sem GNV">Indriver</option>                        
+                <option value="Confort com GNV">Uber e 99 Pop</option> 
+                <option value="Confort com GNV">Uber e Indriver</option>    
+                <option value="Confort sem GNV">99 Pop e Indriver</option> 
+                <option value="Confort sem GNV">Uber, Indriver e 99 Pop</option> 
+                <option value="Confort sem GNV">Outros Apps</option> 
+            </select>
+        </div>
                 <div class="col-sm-3">
                     <label for="inputTelefone">Telefone cadastrado na UBER/99 (*)</label>
                     <input type="text" class="form-control" id="inputTelefone" required placeholder="31-99292-5783">
                 </div>
                 <div class="col-sm-3">
                     <label for="inputEmail">E-mail (*)</label>
-                    <input type="email" class="form-control" id="inputEmail" required placeholder="felipenouber@gmail.com" disabled>
+                    <input type="email" class="form-control" id="inputEmail" required placeholder="felipenouber@gmail.com">
                 </div>
             </div>
             <div class="form-group row">
                                
                 </div>
-                    <div class="Carro-Categoria">
+                    <div class="col-sm-3">
                     <label for="Carro-Categoria">Tipo Carro-Categoria</label>
                     <select id="Carro-Categoria" class="form-control">
                         <option selected>Selecione...</option>
-                        <option value="Padrão sem GNV">Categoria Padrão sem GNV</option>
-                        <option value="Padrão com GNV">Categoria Padrão comm GNV</option>
-                        <option value="Confort sem GNV">Categoria Confort sem GNV</option>
-                        <option value="Confort com GNV">Categoria Confort com GNV</option>     
+                        <option value="Padrão sem GNV">Categoria Standard sem GNV</option>
+                        <option value="Padrão com GNV">Categoria Standard comm GNV</option>
+                        <option value="Intermediária sem GNV">Categoria Intemediária sem GNV</option>                        
+                        <option value="Intermediária com GNV">Categoria Intermediária com GNV</option> 
+                        <option value="Premium com GNV">Categoria Premium sem GNV</option>    
+                        <option value="Premium sem GNV">Categoria Premium com GNV</option> 
                     </select>
                 </div>
 
@@ -175,6 +206,7 @@
 <input type="file" class="form-control" id="inputSite" required placeholder="Carregar arquivos">
 </div>
 </div>
+
     <div class="form-group row">
     <div class="col-sm-4">
     <br>
