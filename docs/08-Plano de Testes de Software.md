@@ -26,7 +26,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
   
 |**Caso de Teste**|**CT-02 Confirmar seleção de categoria e ofertas para aluguel de veículos**|
 | :-: | :-: |
-|**Requisitos Associados**|<p>RF-03 e RF-04</p><p>A tela principal apresenta um formulário solicitando e-mail e senha do usuário para que ele possa logar no sistema. Os campos devem ser preenchidos com dados previamente cadastrados. Caso o usuário não possua o cadastro no sistema, um alert solicitará o cadastro.</p>|
+|**Requisitos Associados**|<p>RF-03 e RF-04</p><p>A tela principal apresenta um formulário solicitando e-mail e senha do usuário para que ele possa logar no sistema. Os campos devem ser preenchidos com dados previamente cadastrados. Caso o usuário não possua o cadastro no sistema, um alerta solicitará o cadastro.</p>|
 |**Objetivo do Teste**|Verificar se as caixas da página para selecionar uma categoria e ofertas estão acessíveis.|
 ||**Passos**|
 ||1) Acessar o Navegador.|
