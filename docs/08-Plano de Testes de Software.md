@@ -1,5 +1,9 @@
 ﻿**Plano de Testes de Software**
 
+Introdução
+
+Este documento descreve os requisitos a serem testados, os tipos de testes definidos para cada iteração, os recursos a serem empregados e o cronograma dos testes ao longo do projeto. 
+
 Os requisitos para realização dos testes de software são:
 
 * Site publicado na Internet 
