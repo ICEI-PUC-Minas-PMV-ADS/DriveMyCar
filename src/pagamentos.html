@@ -1,116 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
+  <head>
     <title>Checkout Pagamento</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/pry_style.css">
+    <link rel="stylesheet" href="formulario.css">
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Footer-white.css">
+    
 </head>
 
 <header>
-    <img widht="200" height="180" src="img/logo_without_background.png" alt="logo Drive my car" id="imgdrive"><br>
-    <!-- Menu de navegacao do site -->
-    <nav id="menu">
-        <ul>
-            <li><a href="index.html">HOME</a>
-            <li><a href="login.html#paralogin">LOGIN</a>
-            <li><a href="frota.html">FROTA</a>
-            <li><a href="docs.html">DOCUMENTOS</a>
-            <li><a href="ofertas.html">OFERTAS</a>
-            <li><a href="pagamentos.html">PAGAMENTOS</a>    
-        </ul>
-    </nav>
+  <img widht="200" height="180" src="img/logo_without_background.png" alt="logo Drive my car" id="imgdrive"><br>
+  <!-- Menu de navegacao do site -->
+  <nav id="menu">
+      <ul>
+          <li><a href="index.html">HOME</a>
+          <li><a href="login.html#paralogin">LOGIN</a>
+          <li><a href="frota.html">FROTA</a>
+          <li><a href="docs.html">DOCUMENTOS</a>
+          <li><a href="ofertas.html">OFERTAS</a>
+          <li><a href="pagamentos.html">PAGAMENTOS</a>    
+      </ul>
+  </nav>
 </header>
 
-<main>
-    <!--formulario-->
-<text aligment="center">
-    <h1> Pagamento: </h1>
-<p></p>
-        <div class="social-media">
 
-    </div>
-    <div class="menupagamento">
-        <a href="" #>
-            <img src="" </a>
-            <ul>
-                <li>Cartão de crédito</li>
-                <li>Pix</li>
-                <li>Pagamento instântaneo</li>
-                <li>Cartão virtual</li>
 
-            </ul>
 
-    </div>
+<body>
+    <div id="titulo"><h1> <strong> Pagamento </strong> </h1>
+  <p id="complete"> <b>Complete as informações e selecione a forma de pagamento:</b></p>
+    </div> 
 
-    <aside id="formulario">
-        <div class="form-pagamento">
-            <form method="POST">
-                <div class=" form-100">
-                    <label>Email:</label>
-                    <input type="text">
-                </div>
-                <div class="form-100">
-                    <label> Dados do Cartão:</label>
-                    <input type="text" placeholder="1234 1234 1234 1234" />
-                    <div class="form-50">
-                        <input type="text" placeholder="12/23" />
-                        <input type="text" placeholder="cvc" />
-                    </div>
-                    <div>
-                        <div class="form-50">
-                            <input type="text" placeholder="Nome no cartão" />
-                        </div>
-                        <div>
-                            <div class="form-100">
-                                <input type="submit" name="acao" value="Pagar" />
-                            </div>
+    
+    <form>
+      
+      <fieldset class="grupo">
+          
+        <div class="campo">
+              <label for="nome">Nome</label>
+              <input type="text"name="Nome"id="nome" required>
+          </div>
+          
+          <div class="campo"> 
+              <label for="sobrenome">Sobrenome</label>
+              <input type="text"name="Sobrenome"id="sobrenome" required>
+            </div>
+            
+            <div class="campo">
+                <label for="email"> Email</label>
+                <input type="email" id="email" required>
+            </div>
+      
+     
 
-                        </div>
-                    </div>
 
-                </div>
-            </form>
+      <div class="payment-method">
+        <label for="card" class="method card">
+          <div class="card-logos">
+            <img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
+            <img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
+          </div>
+   
+          <div class="radio-input">
+            <input id="card" type="radio" name="payment">
+            Pagar com cartão de crédito 
+          </div>
+        </label>
+   
+        <label for="paypal" class="method paypal">
+          <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
+          <div class="radio-input">
+            <input id="paypal" type="radio" name="payment">
+            Pagar com PayPal
+          </div>
+        </label>
+      </div>
+
+
+
+
+
+
+      
+      <div class="cartao">
+      <fieldset class="pagamento">
+        
+        <div class="input-fields">
+          <div class="column-1">
+          <label for="nomecartao"> Nome conforme escrito no cartão: </label>
+          <input type="text" placeholder="Nome no cartão" id= "nomecartao">
+              </div>
+         
+              <div class="small-inputs">
+                <div>
+              <label for="data"> Validade do Cartão: </label>
+              <input type="text" placeholder="12/23" id="data">
+            </div>
+
+            <div class="column-2">
+              <label for="cartaonumero"> Número do cartão: </label>
+              <input type="password" placeholder="1234 1234 1234 1234" id="cartaonumero">
+              
+              </div>
+
+            <div>
+              <label for="verificacao"> CVV / CVC * </label>
+              <input type="password" placeholder="cvc" id="verificacao">
+              
+            </div>
+              <span class="info">* CVV or CVC é o código de segurança do cartão, número único de 3 dígitos na parte de trás do seu cartão separado do número do cartão.</span>
+
+          </div>
+          <div>
+            <div class="form-100">
+                <input type="submit" name="acao" value="Pagar" />
+            </div>
+
+            </div> 
+
+            
+          </div>
         </div>
-    </aside>
-<p></p>
-<br>
-    <img src="https://imgmp.mlstatic.com/org-img/MLB/MP/BANNERS/tipo2_735X40.jpg?v=1" 
-    alt="Mercado Pago - Meios de pagamento" title="Mercado Pago - Meios de pagamento" 
-    width="700" height="40"/>
-</br></text>
-</script>
+          
+  
+ </div> 
+</fieldset>
+</fieldset>
+</form>
+
+</body>
+
+
 
 
 <!--rodapé-->
-    <body>
-        <div class="content">
-        </div>
-        <footer id="myFooter">
-            <div class="container">
-                <ul>
-                    <li><a href="index.html">Informações da Empresa</a></li>
-                    <li><a href="index.html">Contato</a></li>
-                    <li><a href="index.html">Parcerias</a></li>
-                </ul>
-                <p class="footer-copyright">© 2022 Copyright - Drive My Car</p>
-            </div>
-            <div class="footer-social">
-                <a href="https://facebook.com" class="social-icons"><i class="fa fa-facebook"></i></a>
-                <a href="https://instagra.com" class="social-icons"><i class="fa fa-instagram"></i></a>
-                <a href="https://youtube.com" class="social-icons"><i class="fa fa-youtube"></i></a>
-                <a href="https://twitter.com" class="social-icons"><i class="fa fa-twitter"></i></a>
-            </div>
-        </footer>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    </body>
+<body>
+  <div class="content">
+  </div>
+  <footer id="myFooter">
+      <div class="container">
+          <ul>
+              <li><a href="index.html">Informações da Empresa</a></li>
+              <li><a href="index.html">Contato</a></li>
+              <li><a href="index.html">Parcerias</a></li>
+          </ul>
+          <p class="footer-copyright">© 2022 Copyright - Drive My Car</p>
+      </div>
+      <div class="footer-social">
+          <a href="https://facebook.com" class="social-icons"><i class="fa fa-facebook"></i></a>
+          <a href="https://instagra.com" class="social-icons"><i class="fa fa-instagram"></i></a>
+          <a href="https://youtube.com" class="social-icons"><i class="fa fa-youtube"></i></a>
+          <a href="https://twitter.com" class="social-icons"><i class="fa fa-twitter"></i></a>
+      </div>
+  </footer>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
 
 </html>
