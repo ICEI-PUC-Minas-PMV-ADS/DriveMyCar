@@ -1,245 +1,155 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
     padding: 3px;
-  
-  }
-  
-  
-  #menu ul {
+
+}
+
+#menu ul {
     max: width 900px;
     px;
     list-style: none;
     padding: 0;
-    background-color: #dbdada;
-  }
-  
-  #menu ul li {
+    background-color: rgb(215, 221, 205);
+}
+
+#menu ul li {
     display: inline-block;
     padding: 15px;
-  }
-  
-  #menu ul li a {
+}
+
+#menu ul li a {
     color: #fff;
     padding: 20px display:inline-block;
     text-decoration: none;
     transition: background .4s;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  #menu ul li a:hover {
+
+}
+
+#menu ul li a:hover {
     background-color: rgb(238, 15, 15);
-  }
-  
-  #imgdrive {
+}
+
+#imgdrive {
     position: center;
-    
-  }
-  
-  h1 {
-    text-align:justify;
+}
+
+h1 {
+    text-align: center;
     margin: 10px;
     padding: 10px;
     color: gray;
-  }
-  
-  #titulo{
-      font-family: sans-serif;
-      color:red;
-    
-  }
-  #complete{
-    text-align:justify;
-      font-family: sans-serif;
-      font-size: 18px;
-      color:gray;
-      margin-left: 0%;
-      margin-top: 3%;
-      margin-inline-end: 0%;
-      
-      
-  
-  }
-  
-  body{
-      
-      font-family: sans-serif;
-      font: size 1em;
-      margin-left:10%;
-      margin-top:10%;
-      justify-content:center;
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-  }
-  
-  form{
+}
+
+.social-media {
+    display: inline;
+    margin: none;
+}
+
+.menupagamento {
+    display: inline-block;
+    width: 25vw;
+    height: 28vw;
+    background-color: rgb(212, 224, 220);
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.menupagamento ul {
+    list-style: none;
+    margin: 10%;
+
+}
+
+.menupagamento ul li {
+    color: green;
+    background-color: rgb(228, 16, 16) clor:#ccc;
+    width: 150px;
+    padding: 10px;
+    font-family: Arial,sans-serif
+
+}
+
+
+#formulario {
+    display: inline-block;
+    width: 50vw;
+    height: 30vw;
+    align-items: center;
+
+}
+
+.form-pagamento {
+    -webkit-box-shadow: -8px 5px 15px 5px #c7c7c7;
+    box-shadow: -8px 5px 15px 5px #c7c7c7;
+    width: 30%;
+    padding: 30px 30px 80px 30px;
+    width: 70%;
+    height: 30vw;
+    display: inline-block;
+
+}
+
+.form-pagamento form {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.form-pagamento input[type=text] {
+    padding-left: 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+.form-pagamento input[type=submit] {
+    width: 100%;
+    heigt: 40px;
+    border: 0;
+    cursor: pointer;
+    background-color: #069;
+    color: white;
+}
+
+@media screen and (max-widht:768px) {
+
+    .descricao-pagamento,
+    .form-pagamento {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.form-100 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-50 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px margin-centert -1px;
+}
+
+.form-pagamento label {
+    display: block;
+    margin: botom 10px;
+    font-weight: bold;
+    color: rgb(140, 140, 140)
+}
+
+footer {
+
+
     background-color: #dbdada;
-    border: 1px solid black;
-    border-radius: 20px;
-    border-color: black;
-    border-width:
-  border-color:
-  padding:10em;
-  width: 40%;
-  margin::after;
+    text-align: center;
+    font: size 0.8; font-family: Arial,sans-serif
+    color: rgb(128, 120, 120) padding:5px;
+
+
+}
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
   }
-  
-  input,select,textarea{
-      border-radius: 5px;
-  }
-  .campo input[type="text"], .campo input[type="email"], 
-  .campo select, .campo textarea{
-      padding: 0.5em;
-      border:1px solid rgb(35, 187, 73);
-      box-shadow: 2px 2px 2px #rgb(0, 0, 0 , 0, 2);
-      display:block;
-     
-    
-  }
-  
-  .campo select option{
-      padding-right: 1em;
-      
-  }
-  .campo input:focus, .campo select:focus, .campo textarea:focus {
-      background: #e0e0e7;
-  }
-  
-  
-  
-  
-  
-  
-  .payment-method {
-      display:flex;
-      margin-bottom: 40px;
-      justify-content:left:
-      
-    }
-     
-    .method {
-      margin-top:20px;
-      display: flex;
-      flex-direction: column;
-      width: 220px;
-      height: 80px;
-      padding-top: 15px;
-      cursor: pointer;
-      border: 1px solid transparent;
-      border-radius: 2px;
-      background-color:#dbdada;
-      justify-content: center;
-      align-items: center;
-    }
-     
-    .card-logos {
-      display: flex;
-      width: 80px;
-      justify-content: space-between;
-      align-items: center;
-      background:scroll;
-    }
-     
-    .radio-input {
-      margin-top: 20px;
-    }
-     
-  .input-fields {
-      display:block;
-      justify-content: center;
-  }
-    
-  
-  
-    .campo input[type="text"], .campo input[type="email"], 
-    .campo select, .campo textarea{
-        padding: 0.5em;
-        border:1px solid black;
-        box-shadow: 2px 2px 2px #rgb(0, 0, 0 , 0, 2);
-        display:block;
-    }
-  
-    
-  
-    .input-fields label {
-      display:list-item;
-      color: black;
-      
-    }
-   
-  
-    .info {
-      font-size: 12px;
-      font-weight: 100;
-      display: block;
-      margin-top: 50px;
-      opacity: .5;
-      color: #2e2e2e;
-    }
-     
-    div[class*='column'] {
-      width: 250px;
-    }
-     
-    .cartao input:focus, .campo select:focus, .campo textarea:focus {
-      background: #e0e0e7;
-    }
-  
-    .cartao input[type='text'],
-    .cartao input[type='password'] {
-      font-size: 16px;
-      padding: 0.5em;
-      border:1px solid black;
-      box-shadow: 2px 2px 2px #rgb(0, 0, 0 , 0, 2);
-      display:block;
-      
-    }
-     
-    input[type='text']:focus,
-    input[type='password']:focus {
-      border-color: black;
-    }
-     
-  
-     .small-inputs {
-      display: block;
-      margin-top: 0px;
-      justify-content:center;
-    }
-     
-    .small-inputs div {
-      width: 100px;
-    }
-    .form-100 {
-      
-      font-size:1.2em;
-      background: #dbdada;
-      border:0;
-      margin-bottom: 1em;
-      color:black;
-      padding:0.2em 0.6em;
-      box-shaddow:2px 2 px 2px rgba(0, 0, 0,0, 2);
-      text shadow:1px 1px 1px rgb(0,0,0,0.5);
-      transform: translation(-50%,-50%);
-      display: block;
-    
-    }
-    
-    
-    
-    
-    footer {
-  
-  
-      background-color: #dbdada;
-      text-align: center;
-      font: size 0.8; font-family: Arial,sans-serif
-      color: rgb(128, 120, 120) padding:5px;
-    
-    
-    }
-    * {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
-    }
