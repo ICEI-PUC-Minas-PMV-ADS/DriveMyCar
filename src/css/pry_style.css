@@ -153,3 +153,8 @@ footer {
 * {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
   }
+
+  #h1_beta {
+      background-color: rgb(235, 235, 235);
+      color: rgb(255, 255, 255);
+  }
