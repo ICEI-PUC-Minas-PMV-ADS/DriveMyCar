@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pry_style.css">
+    <title>DMC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/footer-white.css">
+
+
+    <script src="login.js"></script>
+    <script>
+        // Verifica se o usuário já esta logado e se negativo, redireciona para tela de login        
+        if (!usuarioCorrente.login) {
+            window.location.href = LOGIN_URL;
+        }
+
+        function exibeUsuarios() {
+
+            // Popula a tabela com os registros do banco de dados
+            let listaUsuarios = '';
+            for (i = 0; i < db_usuarios.usuarios.length; i++) {
+                let usuario = db_usuarios.usuarios[i];
+                listaUsuarios += `<tr><td scope="row">${usuario.nome}</td><td>${usuario.login}</td><td>${usuario.email}</td></tr>`;
+            }
+
+            // Substitui as linhas do corpo da tabela
+            document.getElementById("table-usuarios").innerHTML = listaUsuarios
+
+        }
+
+        function initPage() {
+
+            // Associa a função de logout ao botão
+            document.getElementById('btn_logout').addEventListener('click', logoutUser);
+
+            // Informa o nome do usuário logado
+            document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome;
+
+            // Lista os usuários 
+            exibeUsuarios();
+        }
+
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+    </script>
+
+</head>
+
+<body>
+    <h4>Olá <span id="nomeUsuario">, seja bem-vindo!</span></h4>
+    <button id="btn_logout">Efetuar Logout</button>
+    <header>
+        <img widht="100" height="90" src="../img/logo_without_background.png" alt="logo Drive my car" id="imgdrive"><br>
+        <!-- Menu de navegacao do site -->
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">HOME</a>
+                <li><a href="../Login_Beta/login.html">LOGIN</a>
+                <li><a href="../frota.html">FROTA</a>
+                <li><a href="../docs.html">DOCUMENTOS</a>
+                <li><a href="../ofertas.html">OFERTAS</a>
+                <li><a href="../pagamentos.html">PAGAMENTOS</a>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+
+        <!-- Conteudo -->
+        <h1>Aluguel para motoristas de aplicativos</h1>
+        <text aligment="center">
+            Diárias a partir de R$65.0 <br>
+            Sem limite de KM. <br>
+            Entrada facilitada.<br>
+            <p></p>
+            Aumente seus ganhos dirigindo um carro alugado.<br>
+            Sem limite de quilometragem e sem franquias abusivas.
+        </text>
+
+
+
+        <!--div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <table id="grid-usuarios" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Nome</th>
+                                <th scope="col">login</th>
+                                <th scope="col">E-mail</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-usuarios">
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--rodapé-->
+
+        <body>
+            <div class="content">
+            </div>
+            <footer id="myFooter">
+                <div class="container">
+                    <ul>
+                        <li><a href="index.html">Informações da Empresa</a></li>
+                        <li><a href="index.html">Contato</a></li>
+                        <li><a href="index.html">Parcerias</a></li>
+                    </ul>
+                    <p class="footer-copyright">© 2022 Copyright - Drive My Car</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://facebook.com" class="social-icons"><i class="fa fa-facebook"></i></a>
+                    <a href="https://instagra.com" class="social-icons"><i class="fa fa-instagram"></i></a>
+                    <a href="https://youtube.com" class="social-icons"><i class="fa fa-youtube"></i></a>
+                    <a href="https://twitter.com" class="social-icons"><i class="fa fa-twitter"></i></a>
+                </div>
+            </footer>
+
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+        </body>
+
+</html>

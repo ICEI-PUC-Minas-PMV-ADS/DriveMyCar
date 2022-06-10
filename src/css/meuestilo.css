@@ -63,7 +63,7 @@ a.links{
 /* formatando o cabeçalho dos formulários */
 h1{
   font-size: 48px;
-  color: #066a75;
+  color: rgb(238, 15, 15);
   padding: 10px 0;
   font-family: Arial,sans-serif;
   font-weight: bold;
@@ -87,7 +87,7 @@ p:first-child{
   margin: 0px;
 }
 label{
-  color: #405c60;
+  color: rgb(233, 103, 103);
   position: relative;
 }
 
@@ -115,8 +115,8 @@ input:not([type="checkbox"]){
   -webkit-border-radius: 3px;
   border-radius: 3px;
   
-  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
-  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(167, 92, 92, 0.6) inset;
+  box-shadow: 0px 1px 4px 0px rgba(170, 113, 113, 0.6) inset;
   
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -126,13 +126,13 @@ input:not([type="checkbox"]){
 input[type="submit"]{
   width: 100%!important;
   cursor: pointer;  
-  background: #3d9db3;
+  background: rgb(238, 15, 15);
   padding: 8px 5px;
   color: #fff;
   font-size: 20px;  
   border: 1px solid #fff; 
   margin-bottom: 10px;  
-  text-shadow: 0 1px 1px #333;
+  text-shadow: 0 1px 1px rgb(238, 15, 15);
   
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -140,14 +140,14 @@ input[type="submit"]{
   transition: all 0.2s linear;
 }
 input[type="submit"]:hover{
-  background: #4ab3c6;
+  background: rgb(185, 68, 68);
 }
 
 /*marcando os links para mudar de um formulário para outro */
 .link{
   position: absolute;
   background: #e1eaeb;
-  color: #7f7c7c;
+  color: #ee2525;
   left: 0px;
   height: 20px;
   width: 440px;
@@ -163,9 +163,9 @@ input[type="submit"]:hover{
   font-weight: bold;
   background: #f7f8f1;
   padding: 6px;
-  color: rgb(29, 162, 193);
+  color: rgb(238, 15, 15);
   margin-left: 10px;
-  border: 1px solid #cbd518;
+  border: 1px solid rgb(236, 99, 99);
 
   -webkit-border-radius: 4px;
   border-radius: 4px;  
@@ -174,9 +174,9 @@ input[type="submit"]:hover{
   transition: all 0.4s  linear;
 }
 .link a:hover {
-  color: #39bfd7;
-  background: #f7f7f7;
-  border: 1px solid #4ab3c6;
+  color: rgb(236, 56, 56);
+  background: rgb(247, 182, 182);
+  border: 1px solid rgb(238, 51, 51);
 }
 
 /* estilos para para ambos os formulários */
@@ -188,7 +188,7 @@ input[type="submit"]:hover{
   padding: 18px 6% 60px 6%;
   margin: 0 0 35px 0;
   background: rgb(247, 247, 247);
-  border: 1px solid rgba(147, 184, 189,0.8);
+  border: 1px solid rgba(238, 102, 102, 0.8);
   
   -webkit-box-shadow: 5px;
   border-radius: 5px;
