@@ -18,21 +18,22 @@
 				<div id="login-column" class="col-md-6">
 					<div id="login-box" class="col-md-12">
 						<form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
-							<h3 class="text-center text-info">Login</h3>
+                            <img widht="150" height="120" src="../img/logo_without_background.png" alt="logo Drive my car" id="imgdrive"><br>
+                            <h3 class="text-center text-info2">Login</h3>
 							<div class="form-group">
-								<label for="username" class="text-info">Usuário</label><br>
+								<label for="username" class="text-info2">Usuário</label><br>
                                 <input type="text" name="username" id="username" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="password" class="text-info">Senha</label><br>
+                                <label for="password" class="text-info2">Senha</label><br>
                                 <input type="text" name="password" id="password" class="form-control">
                             </div>
                             <div class="form-group text-right">                                
-                                <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+                                <input type="submit" name="submit" class="btn btn-info2 btn-md" value="submit">
                             </div>
                         </form>
                     </div>
-                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#loginModal">Novo usuario</button>
+                    <button type="button" class="btn btn-info2" data-toggle="modal" data-target="#loginModal">Novo usuario</button>
                 </div>
             </div>
         </div>
@@ -44,41 +45,41 @@
       <div class="modal-content2">
         <div class="modal-header">
             <img widht="100" height="90" src="../img/logo_without_background.png" alt="logo Drive my car" id="imgdrive"><br>
-            <h5 class="modal-title" id="loginModalLabel">Login App</h5>
+            <h5 class="modal-title" id="loginModalLabel">Cadastro</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body2">
             <div id="login-box" class="col-md-12">
                 <form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
-                    <h3 class="text-center text-info">Novo usuário</h3>
+                    <h3 class="text-center2 text-info2">Novo usuário</h3>
                     <div class="form-group">
-                        <label for="login" class="text-info">Usuário</label><br>
+                        <label for="login" class="text-info2">Usuário</label><br>
                         <input type="text" name="txt_login" id="txt_login" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="nome" class="text-info">Nome completo</label><br>
+                        <label for="nome" class="text-info2">Nome completo</label><br>
                         <input type="text" name="txt_nome" id="txt_nome" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="email" class="text-info">email</label><br>
+                        <label for="email" class="text-info2">email</label><br>
                         <input type="text" name="txt_email" id="txt_email" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="senha" class="text-info">Senha</label><br>
+                        <label for="senha" class="text-info2">Senha</label><br>
                         <input type="password" name="txt_senha" id="txt_senha" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="senha2" class="text-info">Confirmação de Senha</label><br>
+                        <label for="senha2" class="text-info2">Confirmação de Senha</label><br>
                         <input type="password" name="txt_senha2" id="txt_senha2" class="form-control">
                     </div>
                 </form>
             </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-          <button type="button" id="btn_salvar" class="btn btn-info">Salvar</button>
+          <button type="button" class="btn btn-secondary2" data-dismiss="modal">Cancelar</button>
+          <button type="button" id="btn_salvar" class="btn btn-info2">Salvar</button>
         </div>
       </div>
     </div>
