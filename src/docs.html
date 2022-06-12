@@ -20,13 +20,12 @@
     <!-- Menu de navegacao do site -->
     <nav id="menu">
         <ul>
-            <li><a href="index.html">HOME</a>
-            <li><a href="login.html#paralogin">LOGIN</a>
+            <li><a href="Login_Beta/index.html">HOME</a>
+            <li><a href="Login_Beta/login.html">LOGIN</a>
             <li><a href="frota.html">FROTA</a>
-            <li><a href="docs.html">DOCUMENTOS</a>
-            <li><a href="ofertas.html">OFERTAS</a>
+            <li><a href="docs.html">DOCUMENTOS</a>            
             <li><a href="pagamentos.html">PAGAMENTOS</a> 
-            <li><a href="../Meus Pedidos.html">MEUS CONTRATOS</a>   
+            <li><a href="Meus Pedidos.html">MEUS CONTRATOS</a>   
         </ul>
     </nav>
 </header>
@@ -50,6 +49,17 @@
         INFORMAÇÕES LOCATÁRIO: COD, NOME, nacionalidade, estado civil, profissão, inscrito no CPF sob o nº. XXXXXX, portador do RG nº. 0000000,
          expedido por SSP /DF, residente e domiciliado em endereço – MINAS GERAIS CEP xxxxxxxx.
         <br>
+        <div>
+            <div class="form-group row">
+                <div class="col-sm-3">
+                    <label for="datetime-local">Data Inicial:</label>
+                    <input type="date" class="form-control" id="input" >
+                </div>
+                <div class="col-sm-3">
+                    <label for="datetime-local">Data Final:</label>
+                    <input type="date" class="form-control" id="input" >
+                </div>
+            </div>
         <br>
         <form id="form-contato">
           <div>
@@ -233,7 +243,8 @@
                 </div>
 
                 <div>
-                    <input type="datetime-local" id="ok" name="Gerar Contrato" class="btn btn-primary" value="Cancelar">
+                    <label for="datetime-local">Data solicitação:</label>
+                    <input type="datetime-local" id="input" name="Gerar Contrato" class="btn btn-primary" value="Cancelar">
                 </div>
                 <div>
                     <button class="button">
@@ -257,9 +268,9 @@
 <footer id="myFooter">
     <div class="container">
         <ul>
-            <li><a href="index.html">Informações da Empresa</a></li>
-            <li><a href="index.html">Contato</a></li>
-            <li><a href="index.html">Parcerias</a></li>
+            <li><a href="Sobre.html">Informações da Empresa</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+            <li><a href="Parceiros.html">Parcerias</a></li>
         </ul>
         <p class="footer-copyright">© 2022 Copyright - Drive My Car</p>
     </div>
