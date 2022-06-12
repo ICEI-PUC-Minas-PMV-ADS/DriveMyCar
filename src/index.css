@@ -21,6 +21,25 @@ box-shadow: 5px 5px 5px var(--tertiary-color);
 border-radius: 20px;
 }
 
+#container2 {
+height: 700px;
+width: 500px;
+margin:auto;
+padding: 10px;
+background: #cfcfcf;
+box-shadow: 5px 5px 5px var(--secondary-color);
+border-radius: 20px;
+}
+
+#container3 {
+height: 700px;
+width: 500px;
+margin:auto;
+background: #a8a7a7;
+box-shadow: 5px 5px 5px var(--secondary-color);
+border-radius: 20px;
+}
+
 .title {
 background: var(--tertiary-color);
 color: var(--primary-color);
