@@ -1,276 +1,291 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <title>Frota</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/pry_style.css">
+  <title>Drive My Car - Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/src/css/pry_style.css">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.88.1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/src/assets/css/Footer-white.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-white.css">
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="../src/bootstrap-5.1.3-examples/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="../src/bootstrap-5.1.3-examples/carousel/carousel.css" rel="stylesheet">
 </head>
 
-<header>
-    <img widht="200" height="180" src="img/logo_without_background.png" alt="logo Drive my car" id="imgdrive"><br>
+<body>
+
+  <header>
+    <!--nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Carousel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav-->
+    <img widht="200" height="180" src="/src/img/logo_without_background.png" alt="logo Drive my car" id="imgdrive"><br>
     <!-- Menu de navegacao do site -->
     <nav id="menu">
-        <ul>
-            <li><a href="indexN.html">HOME</a>
-            <li><a href="../src/Login_Beta/login.html">LOGIN</a>
+      <ul>
+        <li><a href="/src/indexN.html">HOME</a>
+        <li><a href="/src/Login_Beta/login.html">LOGIN</a>
+        <li><a href="/src/frota_info.html">FROTA</a>
+        <li><a href="/src/ofertas.html">OFERTAS</a>
 
-
-
-        </ul>
+      </ul>
     </nav>
+  </header>
 
+  <main>
 
-    <!-- carros no cabeçario -->
-    <img src="img/CORO-L.png" width="12%" height="20%">
-    <img src="img/SANX-L.png" width="12%" height="20%">
-    <img src="img/KWID-L.png" width="12%" height="20%">
-    <img src="img/CRON-L.png" width="12%" height="20%">
-    <img src="img/ETIA-L.png" width="12%" height="20%">
-    <img src="img/LOGU-L.png" width="12%" height="20%">
-    <img src="img/POLA-L.png" width="12%" height="20%">
-</header>
-<br>
-<!--anuncio-->
-<h1>Confira nossos veiculos disponiveis</h1>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/src/img/top4.png">
+          <!--svg class="bd-placeholder-img" width="100%" height="100%" img="../src/img/001.webp"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#c1c1c1" />
+          </svg-->
 
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Sem burocracia</h1>
+              <p>Temos a locação mais simples e rápida da região.</p>
+              <p><a class="btn btn-lg btn-primary" href="/src/Login_Beta/login.html">Saiba mais...</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/src/img/top5.png">
+          <!--svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+          </svg-->
 
-<!--p><label for="">Fabricante:</label>
-    <select id="fabricante">
-        <option value="None">Selecione</option>
-        <option value="0">Fabricante</option>
-        <option value="1">Audi</option>
-        <option value="2">BMW</option>
-        <option value="3">Chevrolet</option>
-        <option value="4">Citroen</option>
-        <option value="5">Fiat</option>
-        <option value="6">Ford</option>
-        <option value="7">Hyundai</option>
-        <option value="8">Honda</option>
-        <option value="9">Jeep</option>
-        <option value="10">Mercedes Benz</option>
-        <option value="11">Mitsubishi</option>
-        <option value="12">Nissan</option>
-        <option value="13">Peugeot</option>
-        <option value="14">Renault</option>
-        <option value="15">Toyota</option>
-        <option value="16">Volkswagen</option>
-        <option value="17">Outros</option>
-    </select></p>
-    
-<p><label for="">Categoria:</label>
-    <select id="categoria">
-      <option value="None">Selecione</option>
-        <option value="Hatch">Compacto</option>
-        <option value="Sedan">Sedã</option>
-        <option value="SUV">SUV</option>
-        <option value="Premium">Premium</option>
-    </select></p>
-    
-    <p><label for="">Período:</label>
-    <select id="periodo">
-        <option value="None">Selecione</option>
-        <option value="Dia">Diária</option>
-        <option value="Semana">Semanal</option>
-        <option value="Mes">Mensal</option>
-    </select></p>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Os melhores veiculos, incluindo Premium.</h1>
+              <p>Veiculos novos e revisados.</p>
+              <p><a class="btn btn-lg btn-primary" href="/src/Login_Beta/login.html">Saiba mais...</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/src/img/top0.png">
+          <!--svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+          </svg-->
 
-
-    </head>
-    <!--opção de veiculos-->
-
-
-
-</div>
-<p>
-<h1>Linha Standard</h1>
-</p>
-<details>
-    <li>Quilometragem ilimitada</li>
-    <li>5 Pessoas</li>
-    <li>2 Malas</li>
-</details>
-
-<img src="img/KWID-L.png" width="30%" height="80%">
-<ol>
-    <li>Linha X
-    <li>Ar-condicionado</li>
-    <li>Direção hidráulica</li>
-    <li>Compacto</li>
-
-    </li>
-
-    </div>
-    <div class="col-sm-12">
-        <label for="Carro-Categoria">opcionais do veiculo</label>
-        <select id="Carro-Categoria" class="form-control">
-            <option selected>Selecione...</option>
-            <option value="Padrão sem GNV">Categoria Standard sem GNV</option>
-            <option value="Padrão com GNV">Categoria Standard com GNV</option>
-
-
-
-        </select>
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Comodidade e agilidade na contratação dos nossos serviços.</h1>
+              <p>Contratos com renovação automatica, KM livre, opções sem e com GNV, alem de muito mais.</p>
+              <p><a class="btn btn-lg btn-primary" href="/src/Login_Beta/login.html">Saiba mais...</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
-</ol>
 
-<p>
-<h1>Linha Standard</h1>
-</p>
-<details>Quilometragem ilimitada</details>
-<img src="img/MOBI-L.png" width="30%" height="80%">
-<ol>
-    <li>Linha X
-    <li>Ar-condicionado</li>
-    <li>Direção hidráulica</li>
-    <li>Compacto</li>
-    </li>
-    </div>
-    <div class="col-sm-12">
-        <label for="Carro-Categoria">opicionais do veiculo</label>
-        <select id="Carro-Categoria" class="form-control">
-            <option selected>Selecione...</option>
-            <option value="Padrão sem GNV">Categoria Standard sem GNV</option>
-            <option value="Padrão com GNV">Categoria Standard com GNV</option>
-        </select>
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
-</ol>
-<p>
-<h1>Linha Comfort Intermediária</h1>
-</p>
-<details>Quilometragem ilimitada</details>
-<img src="img/CRON-L.png" width="30%" height="80%">
-<ol>
-    <li>Linha Confort
-    <li>Ar-condicionado</li>
-    <li>Direção elétrica</li>
-    <li>Sedã</li>
-    </li>
-    </div>
-    <div class="col-sm-12">
-        <label for="Carro-Categoria">opicionais do veiculo</label>
-        <select id="Carro-Categoria" class="form-control">
-            <option selected>Selecione...</option>
-            <option value="Padrão sem GNV">Categoria Confort sem GNV</option>
-            <option value="Padrão com GNV">Categoria Confort com GNV</option>
-        </select>
-</ol>
-<p>
-<h1>Linha Compacto Premium</h1>
-</p>
-<details>Quilometragem ilimitada</details>
-<img src="img/POLA-L.png" width="30%" height="80%">
-<ol>
-    <li>Linha Confort
-    <li>Ar-condicionado</li>
-    <li>Direção elétrica</li>
-    <li>Hatch médio</li>
-    </li>
-    </div>
-    <div class="col-sm-12">
-        <label for="Carro-Categoria">opicionais do veiculo</label>
-        <select id="Carro-Categoria" class="form-control">
-            <option selected>Selecione...</option>
-            <option value="Padrão sem GNV">Categoria Compacto Premium sem GNV</option>
-            <option value="Padrão com GNV">Categoria Compacto Premium com GNV</option>
-        </select>
-</ol>
+    <div class="container marketing">
 
-<p>
-<h1>Linha Compacto Premium</h1>
-</p>
-<details>Quilometragem ilimitada</details>
-<img src="img/PEUF-L.png" width="30%" height="80%">
-<ol>
-    <li>Linha Black
-    <li>Ar-condicionado</li>
-    <li>Direção elétrica</li>
-    <li>Compacto Premium</li>
-    </li>
-    </div>
-    <div class="col-sm-12">
-        <label for="Carro-Categoria">opicionais do veiculo</label>
-        <select id="Carro-Categoria" class="form-control">
-            <option selected>Selecione...</option>
-            <option value="Padrão sem GNV">Categoria Compacto Premium sem GNV</option>
-            <option value="Padrão com GNV">Categoria Compacto Premium com GNV</option>
-        </select>
-</ol>
-<p>
-<h1>Linha Premium</h1>
-</p>
-<details>Quilometragem ilimitada</details>
-<img src="img/CORO-L.png" width="30%" height="80%">
-<ol>
-    <li>Linha Confort
-    <li>Ar-condicionado</li>
-    <li>Direção elétrica</li>
-    <li>Sedan Premium</li>
-    </li>
-    </div>
-    <div class="col-sm-12">
-        <label for="Carro-Categoria">opicionais do veiculo</label>
-        <select id="Carro-Categoria" class="form-control">
-            <option selected>Selecione...</option>
-            <option value="Padrão sem GNV">Categoria Premium Black sem GNV</option>
-            <option value="Padrão com GNV">Categoria Premium Black com GNV</option>
-        </select>
-</ol>
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4"> <!--Quadro 01-->
+          <img src="/src/img/NUNS-140.png">
+          <!--svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg-->
 
-<p>
-<h1>Linha Premium SUV</h1>
-</p>
-<details>Quilometragem ilimitada</details>
-<img src="img/TIGX_L.png" width="30%" height="80%">
+          <h2>Km Livre</h2>
+          <p>Nossos contratos são todos de quilometragem livre para você maximizar seus lucros.</p>
+          <p><a class="btn btn-secondary" href="/src/Login_Beta/login.html">Saiba mais... &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4"><!-- Quadro 2-->
+          <img src="/src/img/CRON-140.png">
+          <!--svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg-->
 
-<li>Linha Black
-<li>Ar-condicionado</li>
-<li>Direção elétrica</li>
-<li>SUV Premium</li>
-</li>
-</div>
-<div class="col-sm-06">
-    <label for="Carro-Categoria">opicionais do veiculo</label>
-    <select id="Carro-Categoria" class="form-control">
-        <option selected>Selecione...</option>
-        <option value="Padrão sem GNV">Categoria SUV Black sem GNV</option>
-        <option value="Padrão com GNV">Categoria SUV Black com GNV</option>
-    </select>
-    </ol>
+          <h2>Opções com GNV</h2>
+          <p>Fuja dos altos preços dos combustiveis liquidos, o GNV é a opção para quem buscar o menor custo por KM rodado.
+          </p>
+          <p><a class="btn btn-secondary" href="/src/Login_Beta/login.html">Saiba mais... &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4"><!--Quadro 3-->
+          <img src="/src/img/CORO-140.png">
+          <!--svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Renovação mensal automatica</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+          </svg-->
+
+          <h2>Renovação Automatica</h2>
+          <p>É sem burocracia mesmo, ative a renovação automatica.</p>
+          <p><a class="btn btn-secondary" href="/src/Login_Beta/login.html">Saiba mais... &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
 
 
-</div>
+      <!-- START THE FEATURETTES -->
 
-<!--rodapé-->
-<div class="content">
-</div>
-<footer id="myFooter">
-    <div class="container">
-        <ul>
-            <li><a href="index.html">Informações da Empresa</a></li>
-            <li><a href="index.html">Contato</a></li>
-            <li><a href="index.html">Parcerias</a></li>
-        </ul>
-        <p class="footer-copyright">© 2022 Copyright - Drive My Car</p>
-    </div>
-    <div class="footer-social">
-        <a href="https://facebook.com" class="social-icons"><i class="fa fa-facebook"></i></a>
-        <a href="https://instagra.com" class="social-icons"><i class="fa fa-instagram"></i></a>
-        <a href="https://youtube.com" class="social-icons"><i class="fa fa-youtube"></i></a>
-        <a href="https://twitter.com" class="social-icons"><i class="fa fa-twitter"></i></a>
-    </div>
-</footer>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <hr class="featurette-divider">
 
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Categoria Standard.<span class="text-muted">A opção mais ecônomica.</span>
+          </h2>
+          <p class="lead"> A opção mais procurada, veiculos compactos e que são aptos a todos os aplicativos.
+            </p>
+        </div>        
+        <div class="col-md-5">
+          <img src="/src/img/MOBI-500.png" alt="500">
+          <!--svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+          </svg-->
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Categoria Intermédiaria <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Veiculos Sedan ideias para quem busca espaço e a opção do GNV.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="/src/img/CRON-400.png" alt="400">
+          <!--svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title-->
+            <!--rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+          </svg-->
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Categoria Premium. <span class="text-muted">Veiculos mais requintados e confortaveis.</span></h2>
+          <p class="lead">Os veiculos mais confortaveis para atender as categorias Uber Black e 99 Top.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="/src/img/coro-500.png" alt="400">
+          <!--svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+          </svg-->
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer id="myFooter">
+      <div class="container">
+          <ul>
+              <li><a href="index.html">Informações da Empresa</a></li>
+              <li><a href="index.html">Contato</a></li>
+              <li><a href="index.html">Parcerias</a></li>
+          </ul>
+          <p class="footer-copyright">© 2022 Copyright - Drive My Car</p>
+      </div>
+      <div class="footer-social">
+          <a href="https://facebook.com" class="social-icons"><i class="fa fa-facebook"></i></a>
+          <a href="https://instagra.com" class="social-icons"><i class="fa fa-instagram"></i></a>
+          <a href="https://youtube.com" class="social-icons"><i class="fa fa-youtube"></i></a>
+          <a href="https://twitter.com" class="social-icons"><i class="fa fa-twitter"></i></a>
+      </div>
+  </footer>
+  </main>
+
+
+  <script src="../src/bootstrap-5.1.3-examples/assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
 </body>
