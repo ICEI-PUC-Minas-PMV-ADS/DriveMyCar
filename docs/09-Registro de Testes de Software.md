@@ -20,7 +20,7 @@ Testar página frota contendo todos os carros disponíveis com imagem e informa�
 - Teste 04: 
 Testar  as opções disponíveis de categorias: Standard, Intermediária, Premium:
 
-<img src="img/req04.PNG"><BR>
+<img src="img/req04a.PNG"><BR>
 
 
 - Teste 05: 
