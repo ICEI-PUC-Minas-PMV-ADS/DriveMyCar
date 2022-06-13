@@ -53,7 +53,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 |**Caso de Teste**|**Teste 04**|
 | :-: | :-: |
-|**Requisitos Associados**|Testar acesso a página de categorias|
+|**Requisitos Associados**|Testar acesso a página de FROTA "não-logada" para visualização de categorias|
 |**Objetivo do Teste**|Verificar se a página informa detalhes das categorias Standard, Intermediário e Premium.|
 ||**Passos**|
 ||1) Acessar o Navegador.|
