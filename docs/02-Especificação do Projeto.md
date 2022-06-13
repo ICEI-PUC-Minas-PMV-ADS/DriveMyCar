@@ -74,7 +74,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |ID    |Descrição do Requisito| Prioridade |
 |------|----------------------|------------|
 |RF-01|	Deve possuir tela "Home" e fornecer acesso a página de cadastro de cliente e também login para clientes já cadastrados;|ALTA|
-|RF-02|	Deve possuir cadastro de usuário  para o acesso a página home logada e visualizar as ofertas de veículos para locação;|MÉDIA|
+|RF-02|	Deve possibilitar o cadastro de usuário  para o acesso a página home logada permitindo a visualização das ofertas de veículos para locação;|MÉDIA|
 |RF-03|	Disponibilizar as ofertas de aluguel de veículos;|ALTA|
 |RF-04|	Disponibilizar aos usuários informações básicas como: valores, franquia de KM permitindo a busca de anúncios que atendam o perfil;|ALTA|
 |RF-05|	Deve disponibilizar cadastro específico para o cliente fornecer os arquivos necessários à contratação, verificação documental e validação das informações pessoais;|ALTA|
