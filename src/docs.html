@@ -70,7 +70,7 @@
               </div>
                 <div class="col-sm-5">
                     <label for="inputNome">Nome Completo (*)</label>
-                    <input type="text" class="form-control" id="inputNome" required placeholder="Felipe Almeida" disabled>
+                    <input type="text" class="form-control" id="inputNome" required placeholder="Felipe Almeida">
               </div>
                 <div class="col-sm-2">
                     <label for="inputId">Nacionalidade (*)</label>
@@ -86,7 +86,7 @@
               </div>
                 <div class="col-sm-2">
                     <label for="inputSite">CPF (*)</label>
-                    <input type="text" class="form-control" id="inputSite" required placeholder="01617538603" disabled>
+                    <input type="text" class="form-control" id="inputSite" required placeholder="01617538603">
               </div>
                 <div class="col-sm-2">
                     <label for="inputNome">Identidade (*)</label>
@@ -94,35 +94,35 @@
               </div>
                 <div class="col-sm-2">
                     <label for="cep">CEP</label>
-                    <input type="text" class="form-control" v-model="cep" id="cep" onclick="this.value=''" maxlength="8" placeholder="30503-000" value="" disabled>
+                    <input type="text" class="form-control" v-model="cep" id="cep" onclick="this.value=''" maxlength="8" placeholder="30503-000" value="">
               </div>
                 <div class="col-sm-2">
                     <label for="cep">CNH</label>
-                    <input type="text" class="form-control" v-model="cep" id="cep" onclick="this.value=''" maxlength="8" placeholder="03552443409" value="" disabled>
+                    <input type="text" class="form-control" v-model="cep" id="cep" onclick="this.value=''" maxlength="8" placeholder="03552443409" value="">
               </div>
                 <div class="col-sm-1">
                     <label for="cep">Cat.</label>
-                    <input type="text" class="form-control" v-model="cep" id="cep" onclick="this.value=''" maxlength="8" placeholder="AB" value="" disabled>
+                    <input type="text" class="form-control" v-model="cep" id="cep" onclick="this.value=''" maxlength="8" placeholder="AB" value="" >
               </div>
                 <div class="col-sm-5"> <!-- INÍCIO DIV CONTEÚDO DO FORM LOGRADOURO -->
                     <label for="endereco">Endereço</label>
-                    <input type="text" class="form-control" id="endereco" placeholder="Rua Jose Resende" disabled>
+                    <input type="text" class="form-control" id="endereco" placeholder="Rua Jose Resende">
               </div>
                 <div class="col-sm-1">
                     <label for="numero">Número</label>
-                    <input type="text" class="form-control" id="numero" placeholder="60" disabled>
+                    <input type="text" class="form-control" id="numero" placeholder="60">
               </div>
                 <div class="col-sm-2">
                     <label for="numero">Complemento</label>
-                    <input type="text" class="form-control" id="numero" placeholder="Casa fundos" disabled>
+                    <input type="text" class="form-control" id="numero" placeholder="Casa fundos">
               </div>
                 <div class="col-sm-4">
                     <label for="bairro">Bairro</label>
-                    <input type="text" class="form-control" id="bairro" placeholder="Jardim Verde e Amarelo" disabled>
+                    <input type="text" class="form-control" id="bairro" placeholder="Jardim Verde e Amarelo" >
               </div>
                 <div class="col-sm-3">
                     <label for="cidade">Cidade</label>
-                    <input type="text" class="form-control" id="cidade" placeholder="Betim" disabled>
+                    <input type="text" class="form-control" id="cidade" placeholder="Betim">
               </div>
                 <div class="col-sm-3">
                     <label for="estado">Estado</label>
@@ -157,7 +157,10 @@
                         <option value="TO">TO - Tocantins</option>
                     </select>
                 </div>
-
+                <div class="col-sm-3">
+                    <label for="inputEmail">E-mail cadastro (*)</label>
+                    <input type="email" class="form-control" id="inputEmail" required placeholder="felipenouber@gmail.com" disabled>
+                </div>
             </div>
             <div class="form-group row">
                 Detalhes Conta Aplicativos:
@@ -182,7 +185,7 @@
                     <input type="text" class="form-control" id="inputTelefone" required placeholder="31-99292-5783">
                 </div>
                 <div class="col-sm-3">
-                    <label for="inputEmail">E-mail (*)</label>
+                    <label for="inputEmail">E-mail cadastrado na UBER/99 (*)</label>
                     <input type="email" class="form-control" id="inputEmail" required placeholder="felipenouber@gmail.com">
                 </div>
             </div>

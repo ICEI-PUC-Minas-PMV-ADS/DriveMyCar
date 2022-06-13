@@ -16,7 +16,7 @@ body {
 height: 500px;
 width: 360px;
 margin:auto;
-background: #dd7272;
+background: #bdb2b2;
 box-shadow: 5px 5px 5px var(--tertiary-color);
 border-radius: 20px;
 }
@@ -35,7 +35,7 @@ border-radius: 20px;
 height: 700px;
 width: 500px;
 margin:auto;
-background: #a8a7a7;
+background: #fff6f6;
 box-shadow: 5px 5px 5px var(--secondary-color);
 border-radius: 20px;
 }
