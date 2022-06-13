@@ -135,3 +135,13 @@ btn-info2 {
     box-shadow: 0 0 0 .2rem rgb(255, 0, 0)
 }
 
+#btn_logout {
+    width: 50px;
+    height: 50px;
+    float: none;
+    background-color: #ff0000;
+    color: aqua;
+}
+
+
+

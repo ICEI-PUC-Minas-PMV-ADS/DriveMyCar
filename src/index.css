@@ -16,7 +16,7 @@ body {
 height: 500px;
 width: 360px;
 margin:auto;
-background: #dd7272;
+background: #e9e6e6;
 box-shadow: 5px 5px 5px var(--tertiary-color);
 border-radius: 20px;
 }
