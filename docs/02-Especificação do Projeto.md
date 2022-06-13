@@ -75,16 +75,15 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |------|----------------------|------------|
 |RF-01|	Deve possuir tela "Home" e fornecer acesso a página de cadastro de cliente e também login para clientes já cadastrados;|ALTA|
 |RF-02|	Deve possibilitar o cadastro de usuário  para o acesso a página home logada permitindo a visualização das ofertas de veículos para locação;|MÉDIA|
-|RF-03|	Disponibilizar as ofertas de aluguel de veículos;|ALTA|
-|RF-04|	Disponibilizar aos usuários informações básicas como: valores, franquia de KM permitindo a busca de anúncios que atendam o perfil;|ALTA|
+|RF-03|	 O site deve possuir no menu a opção de  frota contendo todos os carros disponíveis com imagem e informações específicas de cada veículo.|ALTA|
+|RF-04|Deve disponibilizar ao usuário as opções de escolha conforme categoria: Standard, Intermediária, Premium.|MÉDIA|
 |RF-05|	Deve disponibilizar cadastro específico para o cliente fornecer os arquivos necessários à contratação, verificação documental e validação das informações pessoais;|ALTA|
-|RF-06|	Fazer as buscas de ofertas, onde o usuário possa definir um período desejado, a fim de saber atualizações de novas disponibilidades de veículos;|MÉDIA|
-|RF-07| Sistema de marcação, para que o locatário salve como favorita a opção de locação, para que consiga formalizar o aluguel em novos agendamentos;|BAIXA|
-|RF-08| O site deve possibilitar o cadastro das informações financeiras como cartão de débito, crédito e opção de mercado pago para o pagamento do contrato e caução;|ALTA|
-|RF-09| Fornecer página com histórico das solicitações ja realizadas pelo cliente, sejam elas em andamento ou encerradas;|MÉDIA|
-|RF-10|O site deve possuir opção de calculadora, com a qual se consiga obter valor de diária por período requerido; |MÉDIA|
-|RF-11| O site deve possuir no menu a opção de  frota contendo todos os carros disponíveis com imagem e informações específicas de cada veículo.
-|RF-12|Deve disponibilizar ao usuário as opções de seleção conforme: fabricante, categoria e combustível.
+|RF-06| Sistema de marcação, para que o locatário salve como favorita a opção de locação, para que consiga formalizar o aluguel em novos agendamentos;|BAIXA|
+|RF-07| O site deve possibilitar o cadastro das informações financeiras como cartão de débito, crédito e opção de mercado pago para o pagamento do contrato e caução;|ALTA|
+|RF-08| Fornecer página com histórico das solicitações ja realizadas pelo cliente, sejam elas em andamento ou encerradas;|MÉDIA|
+|RF-09|O site deve possuir opção de calculadora, com a qual se consiga obter valor de diária por período requerido; |MÉDIA|
+
+
 ### Requisitos não Funcionais
 
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
