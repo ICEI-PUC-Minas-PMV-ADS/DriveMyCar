@@ -10,25 +10,26 @@
     px;
     list-style: none;
     padding: 0;
-    background-color: rgb(215, 221, 205);
-}
-
-#menu ul li {
+    background-color: #dbdada;
+  }
+  
+  #menu ul li {
     display: inline-block;
     padding: 15px;
-}
-
-#menu ul li a {
-    color: #fff;
+  }
+  
+  #menu ul li a {
+    color: rgb(255, 255, 255);
     padding: 20px display:inline-block;
     text-decoration: none;
+    text-shadow: 5px 5px 10px black;
     transition: background .4s;
-
-}
-
-#menu ul li a:hover {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #menu ul li a:hover {
     background-color: rgb(238, 15, 15);
-}
+  }
 
 #imgdrive {
     position: center;
