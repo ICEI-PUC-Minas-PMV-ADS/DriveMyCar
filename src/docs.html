@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Footer-white.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+        crossorigin="anonymous"></script>
 </head>
 
 <header>
@@ -53,14 +57,62 @@
         <br>
         <div>
             <div class="form-group row">
-                <div class="col-sm-3">
-                    <label for="datetime-local">Data Inicial:</label>
-                    <input type="date" class="form-control" id="input">
+                <div class="col-sm-3" id="data1">
+                    <label for="datetime">Data Inicial:</label>
+                    <input type="date" class="form-control" id="dataDois" onchange="chamar()">
                 </div>
-                <div class="col-sm-3">
-                    <label for="datetime-local">Data Final:</label>
-                    <input type="date" class="form-control" id="input">
+                <div class="col-sm-3" id="data2">
+                    <label for="datetime">Data Final:</label>
+                    <input type="date" class="form-control" id="dataUm" onchange="chamar()" />
                 </div>
+                <div class="col-sm-2" id="diarias">
+                    <label for="datetime">Quantidade de Diarias:</label>
+                    <Span>
+                        <input type="text" class="textbox" id="numeroDias" name="numdays" disabled />
+                    </Span>
+                </div>
+
+                <div>
+                    <script>
+                        /******* função que recupera os valores dos inputs tipo date e
+                        calcula a diferença entre eles. *******/
+
+                        function difDias() {
+                            //instantaneos do objeto Date, veja explicação no final da resposta
+                            var dataUm = new Date(document.getElementById("dataUm").value);
+                            var dataDois = new Date(document.getElementById("dataDois").value);
+                            return parseInt((dataUm - dataDois) / (24 * 3600 * 1000));
+                        }
+
+                        function chamar() {
+                            document.getElementById("numeroDias").value = isNaN(difDias()) ? "Selecione a outra data" :
+                                difDias();
+                        }
+                    </script>
+
+
+                </div>
+                <div>
+                    <script>
+                    unction calculaDiferenca(dataInicial, dataFinal) {
+
+                            /*gera um objeto do tipo Date com valor do input*/
+                            var date1 = new Date(dataInicial);
+                            var date2 = new Date(dataFinal);
+
+                            console.log(date2.getTime());
+                            /*Subtrai a segunda data em milisegundos pela primeira e usa função abs para retornar o valor absoluto*/
+                            var timeDiff = Math.abs(date2.getTime() - date1.getTime());
+
+                            /*agora ele divide o valor da diferença das datas em milisegundos pela quantidade de milisegundos em um dia e usa ceil para 
+                            retorna o menor número inteiro*/
+                            var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+
+                            alert(diffDays + ' dias');
+                    </script>
+                </div>
+
+
             </div>
             <br>
             <form id="form-contato">
@@ -252,10 +304,10 @@
         </div>
         <div class="jogo-botoes">
             <p><a href="pagamentos.html" class="btn btn-primary btn-sm">Submeter Informações e Prosseguir</a></p><br>
-            <p><a href="frotaN.html" class="btn btn-primary btn-sm">Voltar e Escolher outro Veiculo</a></p><br>  
-            <p><a href="Login_Beta/index.html" class="btn btn-primary btn-sm">Cancelar e Voltar para Home</a></p><br>      
+            <p><a href="frotaN.html" class="btn btn-primary btn-sm">Voltar e Escolher outro Veiculo</a></p><br>
+            <p><a href="Login_Beta/index.html" class="btn btn-primary btn-sm">Cancelar e Voltar para Home</a></p><br>
         </div>
-       
+
 
 
     </div>
@@ -287,9 +339,8 @@
         </div>
     </footer>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="src/js/date.js" </html>
 
-</html>
+</body >
 
-</body>
-
-</html>
+</html >
