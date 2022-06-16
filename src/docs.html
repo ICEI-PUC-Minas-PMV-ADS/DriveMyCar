@@ -27,8 +27,7 @@
             <li><a href="Login_Beta/index.html">HOME</a>
             <li><a href="Login_Beta/login.html">LOGIN</a>
             <li><a href="frotaN.html">FROTA</a>
-            <li><a href="docs.html">DOCUMENTOS</a>
-            <li><a href="pagamentos.html">PAGAMENTOS</a>
+            <li><a href="docs.html">CONTRATAÇÂO</a>
             <li><a href="Meus Pedidos.html">MEUS CONTRATOS</a>
         </ul>
     </nav>
@@ -51,9 +50,7 @@
                 <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
             </div>
         </div>
-        INFORMAÇÕES LOCATÁRIO: COD, NOME, nacionalidade, estado civil, profissão, inscrito no CPF sob o nº. XXXXXX,
-        portador do RG nº. 0000000,
-        expedido por SSP /DF, residente e domiciliado em endereço – MINAS GERAIS CEP xxxxxxxx.
+        INFORMAÇÕES LOCATÁRIO:
         <br>
         <div>
             <div class="form-group row">
@@ -66,10 +63,9 @@
                     <input type="date" class="form-control" id="dataUm" onchange="chamar()" />
                 </div>
                 <div class="col-sm-2" id="diarias">
-                    <label for="datetime">Quantidade de Diarias:</label>
-                    <Span>
-                        <input type="text" class="textbox" id="numeroDias" name="numdays" disabled />
-                    </Span>
+                    <label for="datetime">Total de Diarias:</label>
+                    <input type="text" class="col-sm-5" id="numeroDias" name="numdays" disabled />
+                    
                 </div>
 
                 <div>
@@ -85,7 +81,7 @@
                         }
 
                         function chamar() {
-                            document.getElementById("numeroDias").value = isNaN(difDias()) ? "Selecione a outra data" :
+                            document.getElementById("numeroDias").value = isNaN(difDias()) ? "" :
                                 difDias();
                         }
                     </script>
@@ -94,21 +90,21 @@
                 </div>
                 <div>
                     <script>
-                    unction calculaDiferenca(dataInicial, dataFinal) {
+                    function calculaDiferenca(dataInicial, dataFinal)
 
-                            /*gera um objeto do tipo Date com valor do input*/
-                            var date1 = new Date(dataInicial);
-                            var date2 = new Date(dataFinal);
+                        /*gera um objeto do tipo Date com valor do input*/
+                        var date1 = new Date(dataInicial);
+                        var date2 = new Date(dataFinal);
 
-                            console.log(date2.getTime());
-                            /*Subtrai a segunda data em milisegundos pela primeira e usa função abs para retornar o valor absoluto*/
-                            var timeDiff = Math.abs(date2.getTime() - date1.getTime());
+                        console.log(date2.getTime());
+                        /*Subtrai a segunda data em milisegundos pela primeira e usa função abs para retornar o valor absoluto*/
+                        var timeDiff = Math.abs(date2.getTime() - date1.getTime());
 
-                            /*agora ele divide o valor da diferença das datas em milisegundos pela quantidade de milisegundos em um dia e usa ceil para 
-                            retorna o menor número inteiro*/
-                            var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+                        /*agora ele divide o valor da diferença das datas em milisegundos pela quantidade de milisegundos em um dia e usa ceil para 
+                        retorna o menor número inteiro*/
+                        var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
 
-                            alert(diffDays + ' dias');
+                        alert(diffDays + ' dias');
                     </script>
                 </div>
 
@@ -301,18 +297,18 @@
         <div class="jogo-botoes">
             <label for="datetime-local">Data solicitação:</label>
             <input type="datetime-local" id="input" name="Gerar Contrato" class="btn btn-primary" value="Cancelar">
-        </div>
-        <div class="jogo-botoes">
             <p><a href="pagamentos.html" class="btn btn-primary btn-sm">Submeter Informações e Prosseguir</a></p><br>
             <p><a href="frotaN.html" class="btn btn-primary btn-sm">Voltar e Escolher outro Veiculo</a></p><br>
             <p><a href="Login_Beta/index.html" class="btn btn-primary btn-sm">Cancelar e Voltar para Home</a></p><br>
         </div>
 
 
-
     </div>
-    </div>
-
+    <!--div>
+        <p><a href="pagamentos.html" class="btn btn-primary btn-sm">Submeter Informações e Prosseguir</a></p><br>
+        <p><a href="frotaN.html" class="btn btn-primary btn-sm">Voltar e Escolher outro Veiculo</a></p><br>
+        <p><a href="Login_Beta/index.html" class="btn btn-primary btn-sm">Cancelar e Voltar para Home</a></p><br>
+    </div-->
 
     </script>
 </text>
