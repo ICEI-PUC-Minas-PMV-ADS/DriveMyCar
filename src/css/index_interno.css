@@ -1,0 +1,10 @@
+.subzero {
+    display: flex;
+    float: right;
+    padding: 6px 6px 0 0;
+}
+
+.subzero button {
+    width: 60px;
+    height: 45px;
+}

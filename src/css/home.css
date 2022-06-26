@@ -1,0 +1,11 @@
+/* carousel */
+.carousel-style-dmr  {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+#myCarousel img 
+{
+   width: 100%;
+   height: auto;
+}

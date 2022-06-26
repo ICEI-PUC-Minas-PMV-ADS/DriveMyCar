@@ -1761,3 +1761,16 @@ h1, h2, h3, h4, h5,
   .listing p {
     color: #888;
     font-size: 14px; }
+
+
+    .btn-primary {
+      color: #fff;
+      background-color: #ff0000;
+      border-color: #ff0000;
+    }
+
+    .btn-primary:hover {
+      color: #fff;
+      background-color: #741c1c;
+      border-color: #741c1c;
+    }
