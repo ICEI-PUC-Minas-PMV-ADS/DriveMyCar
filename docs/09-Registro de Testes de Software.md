@@ -48,9 +48,13 @@ Testar calculadora conforme valores e diárias:
 <img src="img/req09.PNG"><BR>
 
 
+Erro no cadastrado em digitar a senha/usuário incorreto o sistema não permite efetuar o login.
 
+<img src="img/bug2.PNG"><BR>
 
+Erro no preenchimento do valor da diária, calculadora não fornece o valor total da reserva.
 
+<img src="img/bug1.PNG"><BR>
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
