@@ -20,7 +20,7 @@ Testar página frota contendo todos os carros disponíveis com imagem e informa�
 - Teste 04: 
 Testar  as opções disponíveis de categorias: Standard, Intermediária, Premium:
 
-<img src="img/req04a.PNG"><BR>
+<img src="img/reqz4.PNG"><BR>
 
 
 - Teste 05: 
@@ -50,11 +50,11 @@ Testar calculadora conforme valores e diárias:
 
 Erro no cadastrado em digitar a senha/usuário incorreto o sistema não permite efetuar o login.
 
-<img src="img/bug2.PNG"><BR>
+<img src="img/bug2.jpeg"><BR>
 
 Erro no preenchimento do valor da diária, calculadora não fornece o valor total da reserva.
 
-<img src="img/bug1.PNG"><BR>
+<img src="img/bug1.jpeg"><BR>
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
