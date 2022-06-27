@@ -9,7 +9,7 @@ Testar acesso a página de login e sua funcionalidade:
 Testar acesso a página de cadastro e sua fucionalidade:
 
 <img src="img/req02.PNG"><BR><BR>
-<img src="img/req02a.PNG"><BR><BR>
+<img src="img/requisito2.png"><BR><BR>
 
 - Teste 03: 
 Testar página frota contendo todos os carros disponíveis com imagem e informações específicas de cada veículo:
@@ -20,7 +20,7 @@ Testar página frota contendo todos os carros disponíveis com imagem e informa�
 - Teste 04: 
 Testar  as opções disponíveis de categorias: Standard, Intermediária, Premium:
 
-<img src="img/reqz4.PNG"><BR>
+<img src="img/requisito4.png"><BR>
 
 
 - Teste 05: 
